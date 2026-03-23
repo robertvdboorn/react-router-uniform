@@ -1,0 +1,29 @@
+composition:
+  _name: 'FAQ: Cancellation Policy'
+  _id: 48958530-f10b-4eea-8731-cb334f224767
+  type: faqItem
+  parameters:
+    answer:
+      type: text
+      locales:
+        en-US: >-
+          You can cancel your booking more than 90 days before departure for a
+          full refund minus a $250 administrative fee. Cancellations made 60-89
+          days before departure receive a 50% refund, while cancellations within
+          60 days are non-refundable unless you have travel insurance. We are
+          committed to working with you to find alternative solutions if your
+          plans change.
+    question:
+      type: text
+      locales:
+        en-US: What is your cancellation policy?
+  _overridability:
+    parameters:
+      answer: 'yes'
+      question: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:58:02.692685+00:00'
+modified: '2025-12-12T14:58:02.692685+00:00'
+pattern: true

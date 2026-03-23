@@ -1,0 +1,640 @@
+created: '2025-12-12T14:02:18.18514+00:00'
+modified: '2025-12-12T15:02:04.107334+00:00'
+pattern: false
+entry:
+  _id: 2c086bf2-56e8-4ae1-b5b7-377a3bbe4cb4
+  _name: Bali
+  _slug: bali
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/kY44tgRZQWavYSvZ05WkYA-bali.jpeg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Bali
+    rating:
+      type: number
+      value: '5'
+    climate:
+      type: text
+      value: Tropical
+    country:
+      type: text
+      value: Indonesia
+    featured:
+      type: checkbox
+      value: 'true'
+    languages:
+      type: text
+      value: Indonesian, Balinese, English
+    highlights:
+      type: text
+      locales:
+        en-US: >-
+          Sacred Temples, Beach Clubs, Rice Terraces, Surf Breaks, Yoga
+          Retreats, Traditional Dance
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Bali: The Island of the Gods'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Bali, Indonesia’s most beloved island, is a paradise where
+                      spiritual tranquility meets vibrant adventure. At its
+                      heart lies 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Ubud
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , the island’s spiritual and cultural center. Here,
+                      ancient temples like 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Pura Taman Saraswati
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: ' and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Goa Gajah
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: ' nestle among lush jungles, while world-renowned yoga retreats offer a sanctuary for mind, body, and soul. Ubud’s streets are alive with art galleries, traditional markets, and the gentle sounds of gamelan music, making it a haven for those seeking inspiration and inner peace.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'For sun-seekers, the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: stunning beaches of Seminyak and Uluwatu
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' beckon with their golden sands and turquoise waters. Seminyak is famed for its chic beach clubs, luxury resorts, and vibrant nightlife, while Uluwatu’s dramatic cliffs are home to legendary surf breaks and the iconic '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Uluwatu Temple
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , where you can witness mesmerizing Kecak fire dances at
+                      sunset.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'No visit to Bali is complete without marveling at the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: iconic rice terraces of Tegalalang
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . These emerald-green landscapes, sculpted by generations
+                      of Balinese farmers, offer breathtaking views and a
+                      glimpse into the island’s agricultural heritage. Adventure
+                      seekers can explore world-class surfing spots along the
+                      southern coast, trek up volcanic Mount Batur for sunrise,
+                      or dive into crystal-clear waters teeming with marine
+                      life.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Bali’s '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: vibrant nightlife
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' pulses through beachside bars, lively night markets, and open-air clubs, especially in areas like Kuta and Seminyak. Yet, the island’s soul is deeply rooted in its '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: traditional culture and ceremonies
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Witness colorful processions, temple festivals, and
+                      daily offerings that reflect the Balinese devotion to
+                      harmony and spirituality.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Food lovers will delight in '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: delicious local cuisine
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: '—from savory '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: nasi goreng
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: ' and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: satay
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: ' to fresh seafood and tropical fruits. Bali’s culinary scene also boasts innovative fusion restaurants and organic cafes catering to every palate.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Indulge in the ultimate relaxation at '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: luxury resorts
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and private villas, many offering infinity pools, spa treatments, and panoramic ocean or jungle views. The island’s '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: warm tropical climate
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' ensures sunshine year-round, while the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: friendly locals
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' welcome visitors with genuine smiles and hospitality.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you crave adventure, cultural immersion, or pure
+                      relaxation, Bali is the perfect destination. Its
+                      enchanting blend of natural beauty, spiritual energy, and
+                      modern comforts promises an unforgettable escape for every
+                      traveler.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    reviewCount:
+      type: number
+      value: 2847
+    featuredImage:
+      type: asset
+      value:
+        - _id: b7dd4962-0303-4beb-b812-b18e488916a0
+          type: image
+          fields:
+            id:
+              type: text
+              value: 6cef2c61-561a-4d7d-abf6-92c74490b127
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/kY44tgRZQWavYSvZ05WkYA-bali.jpeg
+              type: text
+            file:
+              type: file
+              value: 2dba030f-fb7b-4b85-b66d-85542becf8ec
+            size:
+              value: 983598
+              type: number
+            title:
+              type: text
+              value: bali.jpeg
+            width:
+              value: 2670
+              type: number
+            height:
+              value: 1780
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    galleryImages:
+      type: asset
+      value:
+        - _id: 18be4a9c-21d8-4813-97e2-0ccc0156f73c
+          type: image
+          fields:
+            id:
+              type: text
+              value: 071a65bf-1e35-4b49-b6dc-eb7630bc78cc
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/oLqtJktbTN-SdLJGE5q8kg-photo-1555400038-63f5ba517a47.png
+              type: text
+            file:
+              type: file
+              value: 65c849c9-248a-4b4e-9c6f-93f4fd944318
+            size:
+              value: 8763097
+              type: number
+            title:
+              type: text
+              value: photo-1555400038-63f5ba517a47.png
+            width:
+              value: 2670
+              type: number
+            height:
+              value: 1780
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+        - _id: 52b23331-bf11-40f6-b304-390a206bb533
+          type: image
+          fields:
+            id:
+              type: text
+              value: 008013ac-61f1-4de9-8237-f3e29891f000
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/DIyqTuZDQmChdUhamGCuLw-photo-1539367628448-4bc5c9d171c8.jpeg
+              type: text
+            file:
+              type: file
+              value: c8cb2485-d82e-4b66-80e2-dfb67c4f4be7
+            size:
+              value: 2245887
+              type: number
+            title:
+              type: text
+              value: photo-1539367628448-4bc5c9d171c8.jpeg
+            width:
+              value: 2670
+              type: number
+            height:
+              value: 3560
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+        - _id: 07e98df7-02fd-4e19-8908-0687ed3243e3
+          type: image
+          fields:
+            id:
+              type: text
+              value: 6cef2c61-561a-4d7d-abf6-92c74490b127
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/kY44tgRZQWavYSvZ05WkYA-bali.jpeg
+              type: text
+            file:
+              type: file
+              value: 2dba030f-fb7b-4b85-b66d-85542becf8ec
+            size:
+              value: 983598
+              type: number
+            title:
+              type: text
+              value: bali.jpeg
+            width:
+              value: 2670
+              type: number
+            height:
+              value: 1780
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+        - _id: 49cee9d3-51a8-45ae-8a6e-d27405c9a08c
+          type: image
+          fields:
+            id:
+              type: text
+              value: 69994da7-5396-4ade-96a9-e2238e578eda
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/iC9PGTGqQOe9ed4_1oL_pw-photo-1554481923-a6918bd997bc.png
+              type: text
+            file:
+              type: file
+              value: 8e42f535-a93b-44d3-965d-084d8faad1f8
+            size:
+              value: 8020906
+              type: number
+            title:
+              type: text
+              value: photo-1554481923-a6918bd997bc.png
+            width:
+              value: 2565
+              type: number
+            height:
+              value: 3206
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+        - _id: 3874b41d-1988-4270-bce1-da55b677a5b1
+          type: image
+          fields:
+            id:
+              type: text
+              value: ab262c72-b2d5-400f-ac5c-e1380d6df4a8
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/l4prrXm3SB-Vk11L90Q5uA-photo-1558005530-a7958896ec60.png
+              type: text
+            file:
+              type: file
+              value: e02663fa-ff30-4f9e-b56c-8ea3fc42fff2
+            size:
+              value: 6049973
+              type: number
+            title:
+              type: text
+              value: photo-1558005530-a7958896ec60.png
+            width:
+              value: 2671
+              type: number
+            height:
+              value: 1780
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+        - _id: 86cfa452-3efc-4dc7-89e7-da05620e21a7
+          type: image
+          fields:
+            id:
+              type: text
+              value: 8c1b3281-f54f-4335-abe5-905325f5a573
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/P5ad1DpeTYWnqzoOUBAqWQ-photo-1554931670-4ebfabf6e7a9.png
+              type: text
+            file:
+              type: file
+              value: 6b7c3486-73df-4edf-ad2e-3a08d2421ba9
+            size:
+              value: 17332751
+              type: number
+            title:
+              type: text
+              value: photo-1554931670-4ebfabf6e7a9.png
+            width:
+              value: 2574
+              type: number
+            height:
+              value: 3861
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+        - _id: 4f730850-320a-4785-a6e6-b5ef983ab6ad
+          type: image
+          fields:
+            id:
+              type: text
+              value: 109b404f-738d-4ccc-917b-0020bde5748d
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/dgpChx4wT1qhSZcdm4adMA-photo-1544644181-1484b3fdfc62.png
+              type: text
+            file:
+              type: file
+              value: 5d33f15f-c902-43ab-914a-ddf565a05966
+            size:
+              value: 4284065
+              type: number
+            title:
+              type: text
+              value: photo-1544644181-1484b3fdfc62.png
+            width:
+              value: 2670
+              type: number
+            height:
+              value: 1780
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    startingPrice:
+      type: number
+      value: 1299
+    bestTimeToVisit:
+      type: text
+      value: April - October (Dry Season)
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover Bali, Indonesia's enchanting island, known for its stunning
+          beaches, vibrant culture, and scenic rice terraces.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

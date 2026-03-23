@@ -1,0 +1,46 @@
+composition:
+  _name: Bali Destination Detail
+  _id: 9996108f-f997-4418-8ebb-13e9569ca00e
+  type: page
+  slots:
+    content:
+      - _id: 2eb4d2ef-bc5a-4af7-b99f-9703adfb2760
+        type: hero
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: 🌴 Tropical Paradise
+          title:
+            type: text
+            locales:
+              en-US: Experience Bali's Enchantment
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                Experience pristine beaches, ancient temples, lush rice
+                terraces, and world-class luxury in Indonesia's most enchanting
+                island paradise.
+      - _id: a815deac-bbac-43a8-ae2b-8660e6461418
+        type: breadcrumbs
+        _pattern: ea7f694b-3409-41da-be08-a4861a392eac
+      - _id: 788f5372-b3df-4900-8186-a6fb82a4e666
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: 09d0951f-ffc5-4d5b-8882-33dedc3042c1
+        type: tabs
+        _pattern: 7562e400-d3e3-44f7-bf81-ea3e6ab72033
+      - _id: 3f931de4-06a7-459b-b74a-4d0ff9d841a3
+        type: footer
+        _pattern: a3c0d11e-0169-4358-bf81-b3b73771f410
+      - _id: dd3f1342-5fbf-4729-8f9e-d8d543a37939
+        type: itinerary
+        _pattern: 5e8207c8-9e44-4696-9292-01ad1ae34387
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:58:44.853302+00:00'
+modified: '2025-12-12T14:59:31.64584+00:00'
+pattern: false

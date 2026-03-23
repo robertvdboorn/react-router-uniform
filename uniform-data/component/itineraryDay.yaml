@@ -1,0 +1,73 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: itineraryDay
+name: Itinerary Day
+icon: screen
+parameters:
+  - id: dayNumber
+    name: Day Number
+    type: text
+    guidance: Day number (e.g., '1', '2', 'Day 1')
+  - id: title
+    name: Title
+    type: text
+    guidance: Day title or main activity (e.g., 'Arrival & Beach Sunset')
+    localizable: true
+  - id: highlights
+    name: Highlights
+    type: text
+    guidance: Brief summary of key activities (1 sentence)
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: Detailed description of the day's activities and schedule
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: meals
+    name: Meals
+    type: text
+    guidance: Meals included (e.g., 'Breakfast, Lunch, Dinner')
+    localizable: true
+  - id: accommodation
+    name: Accommodation
+    type: text
+    guidance: Where travelers stay (e.g., 'Luxury Beach Resort')
+    localizable: true
+description: Individual day in a travel itinerary
+useTeamPermissions: true
+slots: []
+titleParameter: dayNumber
+canBeComposition: false
+created: '2025-12-12T14:46:59.264494+00:00'
+updated: '2025-12-12T14:46:59.264494+00:00'

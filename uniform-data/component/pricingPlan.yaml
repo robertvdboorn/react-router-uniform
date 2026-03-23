@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: pricingPlan
+name: Pricing Plan
+icon: screen
+parameters:
+  - id: planName
+    name: Plan Name
+    type: text
+    guidance: Name of pricing tier (e.g., 'Basic', 'Premium')
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    guidance: Price amount (e.g., '$999')
+    localizable: true
+  - id: period
+    name: Period
+    type: text
+    guidance: Billing period (e.g., '/person', '/month')
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Brief plan description
+    localizable: true
+  - id: featured
+    name: Featured
+    type: checkbox
+    guidance: Highlight as most popular plan
+  - id: buttonText
+    name: Button Text
+    type: text
+    guidance: CTA button text (e.g., 'Choose Plan')
+    localizable: true
+description: Individual pricing tier card with features and CTA
+useTeamPermissions: true
+slots:
+  - id: features
+    name: Features
+    minComponents: 1
+    allowedComponents:
+      - pricingFeature
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: planName
+canBeComposition: false
+created: '2025-12-11T21:15:35.513253+00:00'
+updated: '2025-12-11T21:15:35.513253+00:00'

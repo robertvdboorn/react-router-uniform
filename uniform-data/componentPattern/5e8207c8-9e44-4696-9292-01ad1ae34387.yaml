@@ -1,0 +1,863 @@
+composition:
+  _name: Bali 7-Day Itinerary
+  _id: 5e8207c8-9e44-4696-9292-01ad1ae34387
+  type: itinerary
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Your 7-Day Bali Adventure
+    subtitle:
+      type: text
+      locales:
+        en-US: From pristine beaches to ancient temples, discover the magic of Bali
+  slots:
+    days:
+      - _id: d1ae6e3d-e0e8-482c-9567-9f5138573eed
+        type: itineraryDay
+        parameters:
+          meals:
+            type: text
+            locales:
+              en-US: Dinner
+          title:
+            type: text
+            locales:
+              en-US: Arrival & Beach Sunset
+          dayNumber:
+            type: text
+            value: '1'
+          highlights:
+            type: text
+            locales:
+              en-US: >-
+                Airport transfer, hotel check-in, welcome dinner, and sunset
+                beach walk.
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Arrive at Ngurah Rai International Airport, where
+                            your private driver will be waiting to greet you
+                            upon arrival. Enjoy a comfortable transfer to your
+                            luxury beachfront resort in Seminyak, a scenic
+                            45-minute drive away. Upon check-in, savor a
+                            refreshing welcome drink as you settle into your
+                            elegant accommodations.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            The afternoon is yours to enjoy at leisure. Unwind
+                            by the resort’s stunning infinity pool, take a
+                            stroll through the lush grounds, or begin exploring
+                            the resort’s amenities and the vibrant Seminyak area
+                            at your own pace.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            As evening approaches, take a relaxing sunset walk
+                            along the beach, soaking in the breathtaking views
+                            of the Indian Ocean. Conclude your first day with a
+                            special welcome dinner at the resort’s beachfront
+                            restaurant, where you’ll indulge in fresh seafood
+                            and authentic Balinese specialties while listening
+                            to the gentle sound of the waves.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          accommodation:
+            type: text
+            locales:
+              en-US: Luxury Beachfront Resort, Seminyak
+        _overridability:
+          parameters:
+            meals: 'yes'
+            title: 'yes'
+            dayNumber: 'yes'
+            highlights: 'yes'
+            description: 'yes'
+            accommodation: 'yes'
+      - _id: 865428cb-deae-4ba1-82a7-22916404af3d
+        type: itineraryDay
+        parameters:
+          meals:
+            type: text
+            locales:
+              en-US: Breakfast, Lunch
+          title:
+            type: text
+            locales:
+              en-US: Ubud Temple & Rice Terraces
+          dayNumber:
+            type: text
+            value: '2'
+          highlights:
+            type: text
+            locales:
+              en-US: >-
+                Visit sacred temples, explore stunning rice terraces, enjoy a
+                traditional lunch, and experience a cultural dance performance.
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Morning:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' Depart from your hotel and enjoy a scenic 1.5-hour drive to Ubud, the cultural heart of Bali. Your first stop is the sacred '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: Tirta Empul Water Temple
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            , renowned for its holy springs where locals and
+                            visitors participate in purification rituals. Take
+                            time to explore the temple grounds and observe the
+                            spiritual ceremonies.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Next, continue to the breathtaking '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: Tegalalang Rice Terraces
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            . Marvel at the lush, emerald-green landscapes and
+                            capture stunning photos of the iconic stepped
+                            paddies. For an extra thrill, try the famous 
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: jungle swing
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' experience, soaring above the terraces for unforgettable views.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Lunch:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' Savor a traditional Balinese lunch at a restaurant overlooking the rice fields, where you can enjoy local specialties while taking in the tranquil scenery.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Afternoon:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' Visit the '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: Ubud Monkey Forest
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            , a lush sanctuary home to hundreds of playful
+                            long-tailed macaques. Stroll through the shaded
+                            pathways and ancient temple ruins, then head to the
+                            vibrant 
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: Ubud Art Markets
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' to browse for unique handicrafts, textiles, and souvenirs.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Evening:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' Return to your hotel to relax. For those interested, there is an '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: optional traditional Balinese dance performance
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' at the historic '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: Ubud Palace
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            , offering a captivating glimpse into Bali’s rich
+                            cultural heritage.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          accommodation:
+            type: text
+            locales:
+              en-US: Luxury Beachfront Resort, Seminyak
+        _overridability:
+          parameters:
+            meals: 'yes'
+            title: 'yes'
+            dayNumber: 'yes'
+            highlights: 'yes'
+            description: 'yes'
+            accommodation: 'yes'
+      - _id: 7a438d1e-68fb-4cfc-adb1-691ddd4b0ad0
+        type: itineraryDay
+        parameters:
+          meals:
+            type: text
+            locales:
+              en-US: Breakfast, Lunch, Dinner
+          title:
+            type: text
+            locales:
+              en-US: Spa Day & Wellness
+          dayNumber:
+            type: text
+            value: '3'
+          highlights:
+            type: text
+            locales:
+              en-US: >-
+                Enjoy sunrise yoga, a traditional massage, healthy spa cuisine,
+                and a meditation session.
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h2
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Day's Activities
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Sunrise Yoga on the Beach:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Start your day with a rejuvenating yoga session as the sun rises over the ocean, setting a peaceful tone for the day.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Healthy Breakfast:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Savor a nutritious breakfast featuring a selection of fresh tropical fruits and wholesome options to energize your morning.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Morning Spa Session:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Indulge in a traditional Balinese massage using aromatherapy oils, followed by a soothing floral bath to relax your body and mind.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 4
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Light Spa Lunch:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Enjoy a light lunch at the spa, including detox juices and organic salads, perfect for nourishing your body.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 5
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Afternoon Meditation & Breathwork:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Participate in a guided meditation and breathwork session by the pool, enhancing your sense of calm and mindfulness.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 6
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Evening at Leisure:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Spend your evening as you wish—explore the resort''s facilities, unwind at your own pace, or take a tranquil stroll along the beach.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                      listType: bullet
+                      direction: null
+                  direction: null
+          accommodation:
+            type: text
+            locales:
+              en-US: Luxury Beachfront Resort, Seminyak
+        _overridability:
+          parameters:
+            meals: 'yes'
+            title: 'yes'
+            dayNumber: 'yes'
+            highlights: 'yes'
+            description: 'yes'
+            accommodation: 'yes'
+      - _id: e7ecf523-5884-4d59-9b9a-32333146aae3
+        type: itineraryDay
+        parameters:
+          meals:
+            type: text
+            locales:
+              en-US: Breakfast, Lunch
+          title:
+            type: text
+            locales:
+              en-US: Water Sports & Beach Activities
+          dayNumber:
+            type: text
+            value: '4'
+          highlights:
+            type: text
+            locales:
+              en-US: >-
+                Enjoy a surfing lesson, go snorkeling, have lunch at a beach
+                club, and end the day with a sunset cruise.
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Start your day with an invigorating early morning '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: surfing lesson at Echo Beach
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            , guided by a professional instructor who will help
+                            you catch your first waves or refine your technique.
+                            After your surf session, embark on a 
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: mid-morning snorkeling excursion
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' where you''ll explore vibrant coral reefs teeming with colorful tropical fish, making for an unforgettable underwater adventure.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'For lunch, unwind at an '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: exclusive beach club
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            , savoring delicious cuisine in a relaxed, upscale
+                            setting with stunning ocean views. In the afternoon,
+                            choose between 
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: kayaking or paddleboarding
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' along the tranquil coastline, enjoying the sun and sea at your own pace.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'As evening approaches, set sail on a '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: sunset sailing cruise
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' along the coast. Toast the day''s adventures with champagne and canapés while watching the sun dip below the horizon, painting the sky in brilliant hues. After returning to shore, head back to your resort and enjoy '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: dinner at your leisure
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: >-
+                            , reflecting on a day filled with excitement and
+                            relaxation.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          accommodation:
+            type: text
+            locales:
+              en-US: Luxury Beachfront Resort, Seminyak
+        _overridability:
+          parameters:
+            meals: 'yes'
+            title: 'yes'
+            dayNumber: 'yes'
+            highlights: 'yes'
+            description: 'yes'
+            accommodation: 'yes'
+      - _id: 1545bcef-e716-44be-ba4d-bacb96fa29dd
+        type: itineraryDay
+        parameters:
+          meals:
+            type: text
+            locales:
+              en-US: Breakfast
+          title:
+            type: text
+            locales:
+              en-US: Departure Day
+          dayNumber:
+            type: text
+            value: '5'
+          highlights:
+            type: text
+            locales:
+              en-US: >-
+                Enjoy breakfast, check out of your hotel, fit in some
+                last-minute shopping, and transfer to the airport for departure.
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Begin your final day in Bali with a delicious
+                            breakfast at the resort, savoring the last flavors
+                            of your tropical getaway. The morning is yours to
+                            enjoy at leisure—take a final dip in the pool,
+                            stroll along the beach, or simply relax and soak in
+                            the tranquil atmosphere.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Check-out is scheduled by noon. If time allows,
+                            consider an optional visit to the nearby Seminyak
+                            boutiques, where you can shop for unique souvenirs
+                            and gifts to remember your trip.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            In the afternoon, a private transfer will take you
+                            to Ngurah Rai International Airport. Depart Bali
+                            with unforgettable memories and a promise to return
+                            to this island paradise.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          accommodation:
+            type: text
+            locales:
+              en-US: N/A
+        _overridability:
+          parameters:
+            meals: 'yes'
+            title: 'yes'
+            dayNumber: 'yes'
+            highlights: 'yes'
+            description: 'yes'
+            accommodation: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:54:13.692663+00:00'
+modified: '2025-12-12T14:55:12.306162+00:00'
+pattern: true

@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: hero
+name: Hero
+icon: screen
+parameters:
+  - id: badge
+    name: Badge
+    type: text
+    guidance: Small badge text above the title (e.g., 'Exclusive Travel Experiences')
+    typeConfig:
+      required: false
+    localizable: true
+  - id: title
+    name: Title
+    type: text
+    guidance: Main hero title - keep it short and impactful (5-10 words)
+    typeConfig:
+      required: false
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting text for the hero - 1-2 sentences maximum
+    typeConfig:
+      required: false
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Full-width background image. Works with Unsplash, Cloudinary, or Uniform assets — responsive sizes are generated automatically.
+    typeConfig:
+      required: false
+description: A hero section component with title and subtitle
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T14:14:56.892895+00:00'
+updated: '2025-12-11T21:32:09.23628+00:00'

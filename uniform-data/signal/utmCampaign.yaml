@@ -1,0 +1,16 @@
+id: utmCampaign
+name: UTM Campaign
+cap: 1
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - type: QS
+      match:
+        cs: false
+        op: '='
+        rhs: demo
+      queryName: utm_campaign
+dur: t
+description: ''
+str: 1

@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: callToAction
+name: Call To Action
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: CTA headline - make it action-oriented and compelling
+    typeConfig:
+      required: false
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting text explaining the action - 1-2 sentences
+    typeConfig:
+      required: false
+    localizable: true
+  - id: badge
+    name: Badge
+    type: text
+    guidance: Optional badge text with emoji (e.g., '🌍 Start Your Journey')
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Full-width background image. Works with Unsplash, Cloudinary, or Uniform assets — responsive sizes are generated automatically.
+    typeConfig:
+      required: false
+description: >-
+  A prominent CTA section with title, description, badge, and dynamic buttons
+  added via slot
+useTeamPermissions: true
+slots:
+  - id: buttons
+    name: Buttons
+    minComponents: 0
+    allowedComponents:
+      - buttonLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T14:15:05.41123+00:00'
+updated: '2025-12-10T15:25:07.219981+00:00'

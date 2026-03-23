@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: breadcrumbItem
+name: Breadcrumb Item
+icon: screen
+parameters:
+  - id: label
+    name: Label
+    type: text
+    guidance: Link text (e.g., 'Destinations', 'Asia')
+    localizable: true
+  - id: url
+    name: URL
+    type: link
+    guidance: Link destination (leave empty for current page)
+  - id: isLast
+    name: Is Last
+    type: checkbox
+    guidance: Mark as last item (current page)
+description: Individual breadcrumb link in navigation trail
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2025-12-12T14:47:05.17212+00:00'
+updated: '2025-12-12T14:47:05.17212+00:00'

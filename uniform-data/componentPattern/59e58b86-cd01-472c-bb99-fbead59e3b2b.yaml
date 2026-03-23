@@ -1,0 +1,40 @@
+composition:
+  _name: Tokyo Destination Card
+  _id: 59e58b86-cd01-472c-bb99-fbead59e3b2b
+  type: destinationCard
+  parameters:
+    name:
+      type: text
+      locales:
+        en-US: Tokyo, Japan
+    price:
+      type: text
+      value: From $1,599
+    rating:
+      type: text
+      value: '4.8'
+    reviews:
+      type: text
+      locales:
+        en-US: 2,134 reviews
+    imageUrl:
+      type: text
+      value: https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800
+    location:
+      type: text
+      locales:
+        en-US: Japan
+  _overridability:
+    parameters:
+      name: 'no'
+      price: 'yes'
+      rating: 'no'
+      reviews: 'no'
+      imageUrl: 'yes'
+      location: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:57:21.723897+00:00'
+modified: '2025-12-12T14:57:21.723897+00:00'
+pattern: true

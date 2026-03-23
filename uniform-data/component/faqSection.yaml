@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: faqSection
+name: FAQ Section
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section title (e.g., 'Frequently Asked Questions')
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Optional subtitle with context (1 sentence)
+    localizable: true
+description: Section for displaying frequently asked questions
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    maxComponents: 20
+    minComponents: 1
+    allowedComponents:
+      - faqItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T23:41:44.245654+00:00'
+updated: '2025-12-10T23:41:44.245654+00:00'

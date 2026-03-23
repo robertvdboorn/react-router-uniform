@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 03f60920-4d3a-4fc5-8eb6-dafff5f2a2fe
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Screenshot-2025-12-12-at-16.09.19.png
+    file:
+      type: file
+      value: 7fa32187-7334-429e-b6d1-6a94465ca001
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/WILRg3oJQs2s4lfSKLY84g-Screenshot-2025-12-12-at-16.09.19.png
+      type: text
+    size:
+      value: 1430739
+      type: number
+    width:
+      value: 738
+      type: number
+    height:
+      value: 1094
+      type: number
+    custom: {}
+created: '2025-12-12T15:09:29.681148+00:00'
+modified: '2025-12-12T15:09:29.681148+00:00'

@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: socialProofBanner
+name: Social Proof Banner
+icon: screen
+parameters:
+  - id: travelersCount
+    name: Travelers Count
+    type: text
+    guidance: Number of travelers served (e.g., '50K+')
+  - id: destinationsCount
+    name: Destinations Count
+    type: text
+    guidance: Number of destinations (e.g., '100+')
+  - id: reviewsCount
+    name: Reviews Count
+    type: text
+    guidance: Number of reviews (e.g., '10K+')
+  - id: satisfactionRate
+    name: Satisfaction Rate
+    type: text
+    guidance: Satisfaction percentage (e.g., '99%')
+description: Luxury statistics banner displaying impressive travel metrics
+useTeamPermissions: true
+slots: []
+titleParameter: travelersCount
+canBeComposition: false
+created: '2025-12-11T21:15:35.721125+00:00'
+updated: '2025-12-11T21:15:35.721125+00:00'

@@ -1,0 +1,29 @@
+composition:
+  _name: Luxury Travel Stats
+  _id: fa4455c5-f8c6-4d80-900a-ccea4f78d963
+  type: socialProofBanner
+  parameters:
+    reviewsCount:
+      type: text
+      value: 12K+
+    travelersCount:
+      type: text
+      value: 50K+
+    satisfactionRate:
+      type: text
+      value: 99%
+    destinationsCount:
+      type: text
+      value: 120+
+  _overridability:
+    parameters:
+      reviewsCount: 'yes'
+      travelersCount: 'yes'
+      satisfactionRate: 'yes'
+      destinationsCount: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T21:16:42.258112+00:00'
+modified: '2025-12-11T21:16:42.258112+00:00'
+pattern: true

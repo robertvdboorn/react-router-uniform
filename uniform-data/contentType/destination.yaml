@@ -1,0 +1,132 @@
+id: destination
+name: Destination
+created: '2025-12-12T13:59:41.778399+00:00'
+updated: '2025-12-12T13:59:41.778399+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    guidance: Destination name (e.g., 'Bali', 'Santorini')
+    localizable: false
+  - id: country
+    name: Country
+    type: text
+    guidance: Country where the destination is located
+    localizable: false
+  - id: description
+    name: Description
+    type: richText
+    guidance: >-
+      Detailed description of the destination, highlighting key attractions and
+      experiences
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: shortDescription
+    name: Short Description
+    type: text
+    guidance: Brief 1-2 sentence overview for card displays
+    localizable: true
+  - id: featuredImage
+    name: Featured Image
+    type: asset
+    guidance: 'Main hero image for the destination (recommended: 1920x1080)'
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: false
+  - id: galleryImages
+    name: Gallery Images
+    type: asset
+    guidance: Collection of images showcasing the destination
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: false
+  - id: startingPrice
+    name: Starting Price
+    type: number
+    guidance: Starting price in USD for packages to this destination
+    typeConfig:
+      min: 0
+    localizable: false
+  - id: rating
+    name: Rating
+    type: number
+    guidance: Average rating out of 5.0
+    typeConfig:
+      max: 5
+      min: 0
+    localizable: false
+  - id: reviewCount
+    name: Review Count
+    type: number
+    guidance: Number of reviews
+    typeConfig:
+      min: 0
+    localizable: false
+  - id: bestTimeToVisit
+    name: Best Time to Visit
+    type: text
+    guidance: Best months or season to visit (e.g., 'April - October')
+    localizable: false
+  - id: climate
+    name: Climate
+    type: text
+    guidance: Climate description (e.g., 'Tropical', 'Mediterranean')
+    localizable: false
+  - id: languages
+    name: Languages
+    type: text
+    guidance: Primary languages spoken (e.g., 'Indonesian, English')
+    localizable: false
+  - id: highlights
+    name: Highlights
+    type: text
+    guidance: >-
+      Comma-separated list of key highlights (e.g., 'Beaches, Temples, Rice
+      Terraces')
+    localizable: true
+  - id: featured
+    name: Featured
+    type: checkbox
+    guidance: Mark as featured destination to highlight on homepage
+    localizable: false
+entryName: name
+thumbnailField: featuredImage
+description: Travel destination with details, images, and pricing information
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations: []

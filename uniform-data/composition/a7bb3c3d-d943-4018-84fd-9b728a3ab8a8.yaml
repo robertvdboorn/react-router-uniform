@@ -1,0 +1,359 @@
+composition:
+  _name: Travel Packages
+  _id: a7bb3c3d-d943-4018-84fd-9b728a3ab8a8
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: '1'
+          key: '1'
+          str: 1
+  slots:
+    content:
+      - _id: 3f4032db-e13e-4bb8-9b8e-ff6a2d775991
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: cfa8167b-0c44-4b76-a0c7-be092d099aee
+        type: hero
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: Premium Packages
+          title:
+            type: text
+            locales:
+              en-US: Choose Your Perfect Package
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                Flexible travel packages for every budget, offering
+                all-inclusive experiences with no hidden fees.
+      - _id: 48ca6e5f-2f75-44c3-afd8-608194aabf39
+        type: socialProofBanner
+        _pattern: fa4455c5-f8c6-4d80-900a-ccea4f78d963
+      - _id: 1cfdc873-9145-4304-9b36-96826a0fdff6
+        type: contentSection
+        slots:
+          content:
+            - _id: d0b1414d-cd6f-4d80-a5ec-f011d623e772
+              type: travelPackageCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Romantic Santorini Getaway
+                badge:
+                  type: text
+                  locales:
+                    en-US: Romantic
+                image:
+                  type: asset
+                  value:
+                    - _id: 5e45bf00-2b6a-4fe2-9cb1-09616b0dddfa
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 1b2dd973-f7d0-4532-ab22-21fc55a077f7
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/F3ILYJ7qQSqymIcymZD2aA-photo-1592468662684-0376320a0842.png
+                          type: text
+                        file:
+                          type: file
+                          value: 899f5e14-049f-4dfc-aa17-068ab7b571aa
+                        size:
+                          value: 4302743
+                          type: number
+                        title:
+                          type: text
+                          value: photo-1592468662684-0376320a0842.png
+                        width:
+                          value: 2564
+                          type: number
+                        height:
+                          value: 3205
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                      _overrides:
+                        fields:
+                          focalPoint:
+                            type: focalPoint
+                            value:
+                              x: 0.89
+                              'y': 0.46
+                price:
+                  type: text
+                  locales:
+                    en-US: $3,299 per person
+                duration:
+                  type: text
+                  locales:
+                    en-US: 6 Days, 5 Nights
+                location:
+                  type: text
+                  locales:
+                    en-US: Santorini, Greece
+                groupSize:
+                  type: text
+                  locales:
+                    en-US: Private (2 guests)
+            - _id: f4a7d754-d021-4114-be60-5798a3c44d36
+              type: travelPackageCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Iceland Northern Lights
+                badge:
+                  type: text
+                  locales:
+                    en-US: ❄️ Winter Special
+                image:
+                  type: asset
+                  value:
+                    - _id: bc0d8b31-4874-4f15-8b36-b260681f8b50
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: e9fed8b0-c4d7-43d5-a9e3-712725994374
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/_cKSoYhKQ3qWsoyWYLMZuw-Screenshot-2025-12-12-at-16.08.05.png
+                          type: text
+                        file:
+                          type: file
+                          value: b3c88f20-955b-4b2f-85c2-fc210ab1f7ab
+                        size:
+                          value: 3756210
+                          type: number
+                        title:
+                          type: text
+                          value: Screenshot-2025-12-12-at-16.08.05.png
+                        width:
+                          value: 1970
+                          type: number
+                        height:
+                          value: 1311
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                      _overrides:
+                        fields:
+                          focalPoint:
+                            type: focalPoint
+                            value:
+                              x: 0.36
+                              'y': 0.79
+                price:
+                  type: text
+                  locales:
+                    en-US: $3,599 per person
+                duration:
+                  type: text
+                  locales:
+                    en-US: 9 Days, 8 Nights
+                location:
+                  type: text
+                  locales:
+                    en-US: Iceland
+                groupSize:
+                  type: text
+                  locales:
+                    en-US: Up to 14 guests
+            - _id: 0434e01f-6066-4115-9e54-eb000ff30d8c
+              type: travelPackageCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Cultural Japan Discovery
+                badge:
+                  type: text
+                  locales:
+                    en-US: 🏯 Cultural
+                image:
+                  type: asset
+                  value:
+                    - _id: 80be57d2-b840-4c4c-af16-5ab10f8173be
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 03f60920-4d3a-4fc5-8eb6-dafff5f2a2fe
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/WILRg3oJQs2s4lfSKLY84g-Screenshot-2025-12-12-at-16.09.19.png
+                          type: text
+                        file:
+                          type: file
+                          value: 7fa32187-7334-429e-b6d1-6a94465ca001
+                        size:
+                          value: 1430739
+                          type: number
+                        title:
+                          type: text
+                          value: Screenshot-2025-12-12-at-16.09.19.png
+                        width:
+                          value: 738
+                          type: number
+                        height:
+                          value: 1094
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                      _source: uniform-assets
+                price:
+                  type: text
+                  locales:
+                    en-US: $4,299 per person
+                duration:
+                  type: text
+                  locales:
+                    en-US: 12 Days, 11 Nights
+                location:
+                  type: text
+                  locales:
+                    en-US: Tokyo, Kyoto, Osaka
+                groupSize:
+                  type: text
+                  locales:
+                    en-US: Up to 16 guests
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Featured Travel Packages Section – Explore Our Top Picks
+      - _id: 2138da3c-5f17-4bf2-8337-5a8c91e47ab9
+        type: contentSection
+        slots:
+          content:
+            - _id: cd1bee53-30c8-4f1e-8e6f-fac4c7765a7e
+              type: travelPackageCard
+              _pattern: 18fdf9b7-324b-4931-b418-266180161cdb
+            - _id: d8d3d03d-1044-4331-a27d-4831e1ff8c28
+              type: featureGrid
+              slots:
+                features:
+                  - _id: 7d2082e0-d6d9-4099-8d79-a2d6513eef92
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: bolt
+                      title:
+                        type: text
+                        locales:
+                          en-US: Explorer - from $899
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy affordable travel with comfortable
+                            accommodations, guided tours, and all essential
+                            amenities included, making it easy to explore
+                            without breaking the bank.
+                  - _id: 162a601a-bf3f-45fa-83b0-d271d321ffc8
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: star
+                      title:
+                        type: text
+                        locales:
+                          en-US: Premium - from $1,899
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy superior hotels, exclusive experiences, and
+                            24/7 concierge support for a truly exceptional stay.
+                  - _id: 29ac21de-3086-4f71-9878-04d63e1b07e9
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: trophy
+                      title:
+                        type: text
+                        locales:
+                          en-US: Luxury - from $3,499
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Experience the ultimate in luxury with 5-star
+                            resorts, private tours, and first-class amenities
+                            throughout your journey. Enjoy a dream vacation
+                            tailored to your every desire for an unforgettable
+                            escape.
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Select Your Journey
+                subtitle:
+                  type: text
+                  locales:
+                    en-US: >-
+                      From budget-friendly adventures to luxury escapes, we have
+                      the perfect package for you.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Our Travel Packages
+      - _id: df9bb25e-53d3-47eb-9ffd-09feaabcdbc4
+        type: testimonial
+        parameters:
+          role:
+            type: text
+            locales:
+              en-US: Maldives • November 2024
+          quote:
+            type: text
+            locales:
+              en-US: >-
+                The Premium Package gave us everything we dreamed of—luxury
+                accommodations, incredible tours, and memories that will last
+                forever. Worth every penny!
+          author:
+            type: text
+            locales:
+              en-US: Sarah & James Miller
+      - _id: f4168f9d-cd17-4777-9236-c8e6d7282a4b
+        type: newsletter
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Stay Inspired
+          buttonText:
+            type: text
+            locales:
+              en-US: Subscribe
+          placeholder:
+            type: text
+            locales:
+              en-US: Enter your email
+      - _id: 83d911b4-d31b-42de-9462-51099f36bfe3
+        type: footer
+        _pattern: a3c0d11e-0169-4358-bf81-b3b73771f410
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-10T15:33:30.057587+00:00'
+modified: '2025-12-12T15:09:43.438715+00:00'
+pattern: false

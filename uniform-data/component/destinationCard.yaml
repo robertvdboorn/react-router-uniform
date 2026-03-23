@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: destinationCard
+name: Destination Card
+icon: screen
+parameters:
+  - id: imageUrl
+    name: Image URL
+    type: text
+    guidance: URL of destination image (e.g., from Unsplash)
+  - id: name
+    name: Name
+    type: text
+    guidance: Destination or package name (3-6 words)
+    localizable: true
+  - id: location
+    name: Location
+    type: text
+    guidance: City and country (e.g., 'Bali, Indonesia')
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    guidance: Starting price with currency (e.g., '$599', '€450')
+  - id: rating
+    name: Rating
+    type: text
+    guidance: Average rating (e.g., '4.9', '5.0')
+  - id: reviews
+    name: Reviews
+    type: text
+    guidance: Number of reviews (e.g., '1,234 reviews')
+    localizable: true
+description: Card for showcasing travel destinations with image, pricing, and ratings
+useTeamPermissions: true
+slots: []
+titleParameter: name
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-10T15:31:11.497007+00:00'
+updated: '2025-12-10T23:44:15.308314+00:00'

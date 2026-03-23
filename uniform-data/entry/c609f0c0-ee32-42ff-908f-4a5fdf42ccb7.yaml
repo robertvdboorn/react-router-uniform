@@ -1,0 +1,554 @@
+created: '2025-12-12T14:13:40.74122+00:00'
+modified: '2025-12-12T14:13:40.74122+00:00'
+pattern: false
+entry:
+  _id: c609f0c0-ee32-42ff-908f-4a5fdf42ccb7
+  _name: Cultural Japan Discovery
+  _slug: cultural-japan-discovery
+  type: travelPackage
+  fields:
+    price:
+      type: number
+      value: 4299
+    duration:
+      type: text
+      value: 12 Days / 11 Nights
+    featured:
+      type: checkbox
+      value: 'true'
+    exclusions:
+      type: text
+      locales:
+        en-US: >-
+          Travel insurance, some meals, personal shopping, and optional
+          activities are not included in the package.
+    inclusions:
+      type: text
+      locales:
+        en-US: >-
+          Roundtrip Flights, Hotels & Ryokan Stays, JR Pass, All Cultural
+          Experiences, Most Meals, English-Speaking Guide
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: '12-Day Cultural Japan Experience: Tokyo, Kyoto & Osaka'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Embark on an unforgettable 12-day journey through the
+                      heart of Japan, immersing yourself in the country’s rich
+                      traditions, vibrant cities, and timeless beauty. This
+                      expertly curated package is designed for culture
+                      enthusiasts seeking authentic encounters and hands-on
+                      experiences in Tokyo, Kyoto, and Osaka.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Itinerary Highlights
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Tokyo:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Begin your adventure in Japan’s dynamic capital. Witness the electrifying energy of the city, explore historic districts, and enjoy a '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: sumo wrestling morning practice viewing
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: —a rare glimpse into this ancient sport.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Traditional Tea Ceremony with Geisha:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Step into a world of grace and elegance as you participate in a private tea ceremony, hosted by a geisha. Learn about the rituals and symbolism behind this cherished tradition.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Ancient Temples & Shrines:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Visit iconic sites such as Senso-ji in Tokyo, Fushimi Inari Taisha in Kyoto, and Osaka’s Shitenno-ji. Marvel at centuries-old architecture and spiritual serenity.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sushi-Making Class:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Master the art of sushi with a hands-on class led by a renowned chef. Discover the secrets of perfect rice, fresh fish, and beautiful presentation.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Stay in a Traditional Ryokan:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Experience true Japanese hospitality with a stay in a ryokan, complete with tatami rooms, futon bedding, and rejuvenating '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: onsen
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' (hot spring baths).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Kimono Wearing Experience:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Dress in exquisite traditional attire and stroll through historic streets, capturing memorable photos and feeling the spirit of old Japan.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Bamboo Forest Walk in Arashiyama:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Wander through the enchanting bamboo groves of Kyoto’s Arashiyama, a tranquil escape and a photographer’s dream.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sake Brewery Tour:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Delve into the world of Japanese sake with a guided tour and tasting at a local brewery, learning about the craftsmanship behind this iconic beverage.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 9
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Cherry Blossom Viewing (Seasonal):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' If traveling in spring, enjoy hanami—cherry blossom viewing—at some of Japan’s most picturesque spots, surrounded by a sea of pink petals.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 10
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Calligraphy Workshop:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Try your hand at shodo, the art of Japanese calligraphy, under the guidance of a skilled instructor.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 11
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Guided Tours with Cultural Experts:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Throughout your journey, benefit from the insights of local guides and cultural experts who bring Japan’s history and traditions to life.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Package Inclusions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          11 nights’ accommodation (including ryokan stay with
+                          onsen)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Daily breakfast and select traditional meals
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          All guided tours, workshops, and cultural experiences
+                          listed above
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: All entrance fees to temples, shrines, and attractions
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Private and group transfers between cities and
+                          activities
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: English-speaking cultural experts and local guides
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Choose This Journey?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This immersive package is perfect for travelers who wish
+                      to go beyond sightseeing and truly connect with Japan’s
+                      living heritage. Whether you’re savoring the delicate
+                      flavors of hand-rolled sushi, relaxing in a steaming
+                      onsen, or learning the graceful movements of a tea
+                      ceremony, every moment is designed to inspire and delight.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Book now
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and experience the magic of Japan’s culture, past and present, on this extraordinary 12-day adventure.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    packageName:
+      type: text
+      value: Cultural Japan Discovery
+    packageType:
+      type: select
+      value: cultural
+    maxGroupSize:
+      type: number
+      value: 16
+    originalPrice:
+      type: number
+      value: 5299
+    difficultyLevel:
+      type: select
+      value: easy
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience Japan's rich culture with tea ceremonies, temple tours,
+          sumo wrestling, and authentic local traditions in one complete travel
+          package.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

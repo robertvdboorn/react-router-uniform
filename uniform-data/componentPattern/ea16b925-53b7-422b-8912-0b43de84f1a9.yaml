@@ -1,0 +1,25 @@
+composition:
+  _name: 'Footer Link: About Us'
+  _id: ea16b925-53b7-422b-8912-0b43de84f1a9
+  type: footerLink
+  parameters:
+    url:
+      type: link
+      value:
+        path: /about-us
+        type: projectMapNode
+        nodeId: 8e590762-5e7c-45b8-97c9-316644cfb9f8
+    label:
+      type: text
+      locales:
+        en-US: About Us
+  _overridability:
+    parameters:
+      url: 'yes'
+      label: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:44:49.283304+00:00'
+modified: '2025-12-11T20:44:49.283304+00:00'
+pattern: true

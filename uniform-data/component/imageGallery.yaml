@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: imageGallery
+name: Image Gallery
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main gallery heading
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Gallery description or tagline
+    localizable: true
+description: Luxury photo gallery with lightbox functionality and masonry grid layout
+useTeamPermissions: true
+slots:
+  - id: images
+    name: Images
+    minComponents: 1
+    allowedComponents:
+      - galleryImage
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-11T21:15:33.627612+00:00'
+updated: '2025-12-11T21:15:33.627612+00:00'

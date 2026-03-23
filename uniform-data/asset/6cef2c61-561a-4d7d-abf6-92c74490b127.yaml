@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6cef2c61-561a-4d7d-abf6-92c74490b127
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bali.jpeg
+    file:
+      type: file
+      value: 2dba030f-fb7b-4b85-b66d-85542becf8ec
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/kY44tgRZQWavYSvZ05WkYA-bali.jpeg
+      type: text
+    size:
+      value: 983598
+      type: number
+    width:
+      value: 2670
+      type: number
+    height:
+      value: 1780
+      type: number
+    custom: {}
+created: '2025-12-12T14:49:22.733933+00:00'
+modified: '2025-12-12T14:49:22.733933+00:00'

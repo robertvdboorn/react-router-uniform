@@ -1,0 +1,40 @@
+composition:
+  _name: Iceland Destination Card
+  _id: e7095398-b975-4d1f-8954-80af6579fe08
+  type: destinationCard
+  parameters:
+    name:
+      type: text
+      locales:
+        en-US: Iceland Adventure Escape
+    price:
+      type: text
+      value: From $1,799
+    rating:
+      type: text
+      value: '4.7'
+    reviews:
+      type: text
+      locales:
+        en-US: 892 reviews
+    imageUrl:
+      type: text
+      value: https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800
+    location:
+      type: text
+      locales:
+        en-US: Nordic Island
+  _overridability:
+    parameters:
+      name: 'no'
+      price: 'yes'
+      rating: 'no'
+      reviews: 'no'
+      imageUrl: 'yes'
+      location: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:57:17.199788+00:00'
+modified: '2025-12-12T14:57:17.199788+00:00'
+pattern: true

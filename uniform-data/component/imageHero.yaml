@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: imageHero
+name: Image Hero
+icon: screen
+parameters:
+  - id: badge
+    name: Badge
+    type: text
+    guidance: Optional badge label (e.g., 'Featured Destination')
+    localizable: true
+  - id: title
+    name: Title
+    type: text
+    guidance: Main hero heading (e.g., 'Discover Bali')
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting text describing the destination or package
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: 'Large hero image (recommended: 2400x1200px)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: overlayOpacity
+    name: Overlay Opacity
+    type: select
+    guidance: Darkness of overlay for text readability
+    typeConfig:
+      options:
+        - text: Light (30%)
+          value: light
+        - text: Medium (50%)
+          value: medium
+        - text: Dark (70%)
+          value: dark
+  - id: textAlign
+    name: Text Align
+    type: select
+    guidance: Text alignment within hero
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+  - id: height
+    name: Height
+    type: select
+    guidance: Hero section height
+    typeConfig:
+      options:
+        - text: Small (400px)
+          value: small
+        - text: Medium (600px)
+          value: medium
+        - text: Large (700px)
+          value: large
+        - text: Full Screen
+          value: full
+description: >-
+  Full-width hero with background image, gradient overlay, and centered content
+  - perfect for destination detail pages
+useTeamPermissions: true
+slots: []
+titleParameter: badge
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-12-12T15:05:34.858078+00:00'
+updated: '2025-12-12T15:05:34.858078+00:00'

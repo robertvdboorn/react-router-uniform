@@ -1,0 +1,112 @@
+composition:
+  _name: Footer
+  _id: a3c0d11e-0169-4358-bf81-b3b73771f410
+  type: footer
+  parameters:
+    tagline:
+      type: text
+      locales:
+        en-US: Curating extraordinary journeys for discerning travelers since 1995
+    companyName:
+      type: text
+      locales:
+        en-US: Voyager
+    copyrightText:
+      type: text
+      locales:
+        en-US: © 2024 Voyager. All rights reserved.
+  slots:
+    companyLinks:
+      - _id: 35ab0d37-6b03-4b19-8ab3-085fd47a0877
+        type: footerLink
+        _pattern: ea16b925-53b7-422b-8912-0b43de84f1a9
+      - _id: c9be4a54-ed43-4797-b184-3000ea38c528
+        type: footerLink
+        parameters:
+          url:
+            type: link
+            value:
+              path: /about-us
+              type: projectMapNode
+              nodeId: 8e590762-5e7c-45b8-97c9-316644cfb9f8
+          label:
+            type: text
+            locales:
+              en-US: Our Story
+        _overridability:
+          parameters:
+            url: 'yes'
+            label: 'yes'
+      - _id: 6cb9dff0-b30d-4f4b-9d78-9437e3393135
+        type: footerLink
+        parameters:
+          url:
+            type: link
+            value:
+              path: /travel-packages
+              type: projectMapNode
+              nodeId: 1dea5bb5-728f-4a07-b0a6-d0c44922f38a
+          label:
+            type: text
+            locales:
+              en-US: Travel Packages
+        _overridability:
+          parameters:
+            url: 'yes'
+            label: 'yes'
+    supportLinks:
+      - _id: 60903f7d-e256-4965-b492-700b6e05552e
+        type: footerLink
+        _pattern: 08368501-a02c-4ee2-85b3-195c150a73cf
+      - _id: 9afaae79-aced-47bb-999d-cf3010f09001
+        type: footerLink
+        parameters:
+          url:
+            type: link
+            value:
+              path: /
+              type: projectMapNode
+              nodeId: 7ecae7b8-5100-45da-bf96-df9781c80ada
+          label:
+            type: text
+            locales:
+              en-US: FAQ
+        _overridability:
+          parameters:
+            url: 'yes'
+            label: 'yes'
+    destinationLinks:
+      - _id: fda3842b-16c7-4129-acd7-b5f6746abca9
+        type: footerLink
+        _pattern: aa1be681-60ca-44a2-9f1b-b2275834bdf5
+      - _id: 43e48afd-b0ff-4533-8de3-60f40915bdb3
+        type: footerLink
+        _pattern: 623d440e-de64-4692-a6c5-96685ec642ba
+      - _id: 0c59b960-4bf1-4f8d-b817-03e8c2d05438
+        type: footerLink
+        parameters:
+          url:
+            type: link
+            value:
+              path: /destinations
+              type: projectMapNode
+              nodeId: 3f6293cf-b17e-4910-8955-1a06993304d2
+          label:
+            type: text
+            locales:
+              en-US: Caribbean
+        _overridability:
+          parameters:
+            url: 'yes'
+            label: 'yes'
+  _overridability:
+    parameters:
+      tagline: 'yes'
+      companyName: 'yes'
+      copyrightText: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:40:04.64916+00:00'
+modified: '2025-12-11T22:38:43.372819+00:00'
+pattern: true

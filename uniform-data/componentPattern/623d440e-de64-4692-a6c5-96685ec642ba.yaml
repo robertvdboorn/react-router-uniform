@@ -1,0 +1,18 @@
+composition:
+  _name: 'Footer Link: Europe'
+  _id: 623d440e-de64-4692-a6c5-96685ec642ba
+  type: footerLink
+  parameters:
+    label:
+      type: text
+      locales:
+        en-US: Europe
+  _overridability:
+    parameters:
+      label: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:44:50.613278+00:00'
+modified: '2025-12-11T20:44:50.613278+00:00'
+pattern: true

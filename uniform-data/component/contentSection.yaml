@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: contentSection
+name: Content Section
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section heading - describe what this section contains
+    typeConfig:
+      required: false
+    localizable: true
+description: A flexible content section with title and slot for child components
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - textBlock
+      - featureGrid
+      - featureCard
+      - destinationCard
+      - travelPackageCard
+      - imageSection
+      - testimonial
+      - itinerary
+      - tabs
+      - imageGallery
+      - faqSection
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T14:15:33.998838+00:00'
+updated: '2025-12-12T15:01:07.775477+00:00'

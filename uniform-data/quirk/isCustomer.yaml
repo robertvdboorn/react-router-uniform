@@ -1,0 +1,8 @@
+id: isCustomer
+name: Is Customer
+description: ''
+options:
+  - name: 'Yes'
+    value: 'true'
+  - name: 'False'
+    value: 'true'

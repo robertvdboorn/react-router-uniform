@@ -1,0 +1,27 @@
+composition:
+  _name: 'FAQ: Booking & Payment'
+  _id: 67b96202-cf3e-46c9-8bdf-2fb0e6f0600c
+  type: faqItem
+  parameters:
+    answer:
+      type: text
+      locales:
+        en-US: >-
+          To book, select your package, choose your dates, and complete our
+          secure online form. We accept major credit cards, PayPal, bank
+          transfers, and offer flexible payment plans. A 20% deposit secures
+          your spot, with the balance due 60 days before departure.
+    question:
+      type: text
+      locales:
+        en-US: How do I book a trip and what payment methods do you accept?
+  _overridability:
+    parameters:
+      answer: 'yes'
+      question: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:57:49.980353+00:00'
+modified: '2025-12-12T14:57:49.980353+00:00'
+pattern: true

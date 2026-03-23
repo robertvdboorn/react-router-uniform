@@ -1,0 +1,18 @@
+composition:
+  _name: 'Footer Link: Asia'
+  _id: aa1be681-60ca-44a2-9f1b-b2275834bdf5
+  type: footerLink
+  parameters:
+    label:
+      type: text
+      locales:
+        en-US: Asia
+  _overridability:
+    parameters:
+      label: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:44:52.129256+00:00'
+modified: '2025-12-11T20:44:52.129256+00:00'
+pattern: true

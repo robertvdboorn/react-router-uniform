@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigationLink
+name: Navigation Link
+icon: screen
+parameters:
+  - id: label
+    name: Label
+    type: text
+    guidance: Link text to display (e.g., 'Destinations', 'About Us')
+    localizable: true
+  - id: url
+    name: URL
+    type: link
+    guidance: Link destination
+  - id: variant
+    name: Variant
+    type: select
+    guidance: Visual style of the link
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: Button
+          value: button
+        - text: Highlight
+          value: highlight
+description: Single navigation link with label and URL. Supports multiple visual variants.
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2025-12-10T15:18:55.281416+00:00'
+updated: '2025-12-10T17:32:50.616491+00:00'

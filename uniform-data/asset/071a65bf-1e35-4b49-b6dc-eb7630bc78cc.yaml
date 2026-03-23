@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 071a65bf-1e35-4b49-b6dc-eb7630bc78cc
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: photo-1555400038-63f5ba517a47.png
+    file:
+      type: file
+      value: 65c849c9-248a-4b4e-9c6f-93f4fd944318
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/oLqtJktbTN-SdLJGE5q8kg-photo-1555400038-63f5ba517a47.png
+      type: text
+    size:
+      value: 8763097
+      type: number
+    width:
+      value: 2670
+      type: number
+    height:
+      value: 1780
+      type: number
+    custom: {}
+created: '2025-12-12T15:01:18.018559+00:00'
+modified: '2025-12-12T15:01:18.018559+00:00'

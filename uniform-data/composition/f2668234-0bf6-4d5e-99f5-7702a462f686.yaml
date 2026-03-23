@@ -1,0 +1,268 @@
+composition:
+  _name: About Us
+  _id: f2668234-0bf6-4d5e-99f5-7702a462f686
+  type: page
+  slots:
+    content:
+      - _id: 70c525d9-41fd-4b77-af79-1d5ddd8d9aca
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: dce1b972-75ec-4993-8436-e7ff2551901d
+        type: hero
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: Our Story
+          title:
+            type: text
+            locales:
+              en-US: Inspiring Travel Since 2009
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                Travel transforms lives. We're here to make unforgettable
+                journeys possible for everyone, one adventure at a time.
+      - _id: 6e927d1d-80ef-4470-ace2-295cde5eb387
+        type: contentSection
+        slots:
+          content:
+            - _id: 9ae30d31-1b8e-4694-b35f-814c70cfa64d
+              type: textBlock
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  It started with a backpack and a dream. In
+                                  2009, our founders quit their corporate jobs
+                                  to explore the world. What they discovered
+                                  wasn't just breathtaking destinations—it was
+                                  the transformative power of travel.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  After two years traveling through 45
+                                  countries, they returned home with a mission:
+                                  to make extraordinary travel experiences
+                                  accessible to everyone. We partner with local
+                                  communities worldwide to create authentic,
+                                  sustainable journeys that change lives.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Today, we've helped over 50,000 travelers
+                                  discover the world. But we're just getting
+                                  started. Every journey we plan, every
+                                  destination we explore, and every traveler we
+                                  inspire brings us closer to our vision of a
+                                  more connected, understanding world.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+            - _id: 872289e4-6f5c-4cb7-b949-e7c3b686dcf4
+              type: featureGrid
+              slots:
+                features:
+                  - _id: c8b10f7e-e508-4196-ac63-94671a4501b8
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: globe
+                      title:
+                        type: text
+                        locales:
+                          en-US: Authentic Experiences
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            We partner with local guides and communities to
+                            create genuine, immersive experiences that go beyond
+                            typical tourism.
+                  - _id: da8f3e5a-fa7a-4516-aa88-5fdf053add20
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: users
+                      title:
+                        type: text
+                        locales:
+                          en-US: Customer First
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy peace of mind with our 24/7 support, ensuring
+                            your dream vacation is seamless from start to
+                            finish. We're always here to assist you, no matter
+                            the time or place.
+                  - _id: 2a22c3cd-1638-4322-be89-56b0beba02ef
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: heart
+                      title:
+                        type: text
+                        locales:
+                          en-US: Sustainable Travel
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            We are dedicated to responsible tourism practices
+                            that safeguard the environment and empower local
+                            communities, ensuring a positive impact for future
+                            generations.
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What Drives Us
+                subtitle:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Our core values guide everything we do, shaping our
+                      approach and driving our commitment to excellence.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Our Story
+      - _id: 6bb7da0c-211f-410d-a761-e5874e30627b
+        type: statsSection
+        slots:
+          stats:
+            - _id: 1e96dbe6-5c14-479d-8212-2985ac7d7bab
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: trophy
+                label:
+                  type: text
+                  locales:
+                    en-US: Years of Excellence
+                number:
+                  type: text
+                  value: 15+
+            - _id: 3f18c506-2f7e-4d16-a01a-f0d0d5c3cb27
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: users
+                label:
+                  type: text
+                  locales:
+                    en-US: Happy Travelers
+                number:
+                  type: text
+                  value: 50K+
+            - _id: 5c61af47-841c-4a68-96d5-470eecffcaef
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: globe
+                label:
+                  type: text
+                  locales:
+                    en-US: Destinations Worldwide
+                number:
+                  type: text
+                  value: 120+
+            - _id: 748a9770-eba4-4636-bf86-74496f2dba7c
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: star
+                label:
+                  type: text
+                  locales:
+                    en-US: Customer Satisfaction
+                number:
+                  type: text
+                  value: 99%
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Our Journey in Numbers
+      - _id: 223aa1f1-ae73-4286-bb10-f6562bf1a329
+        type: newsletter
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Join Our Travel Community
+          buttonText:
+            type: text
+            locales:
+              en-US: Subscribe
+          placeholder:
+            type: text
+            locales:
+              en-US: your@email.com
+      - _id: a95a16cc-c494-46da-a730-5185336726f7
+        type: carousel
+        _pattern: fbc917ba-1471-46d9-8c10-138476d7cf4e
+      - _id: fc0e65d9-e3af-4db3-af1a-b0944c7060b0
+        type: footer
+        _pattern: a3c0d11e-0169-4358-bf81-b3b73771f410
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-10T15:33:31.089892+00:00'
+modified: '2025-12-11T21:33:20.920988+00:00'
+pattern: false

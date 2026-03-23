@@ -1,0 +1,63 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: trustBadge
+name: Trust Badge
+icon: screen
+parameters:
+  - id: icon
+    name: Icon
+    type: select
+    guidance: Select an icon to represent this trust indicator
+    typeConfig:
+      options:
+        - text: Shield (Security)
+          value: shield
+        - text: Credit Card (Payment)
+          value: card
+        - text: Clock (Support)
+          value: clock
+        - text: Heart (Care)
+          value: heart
+        - text: Star (Quality)
+          value: star
+        - text: Globe (Global)
+          value: globe
+        - text: Bolt (Fast)
+          value: bolt
+        - text: Check Badge (Verified)
+          value: check
+  - id: color
+    name: Color
+    type: select
+    guidance: Icon and background color scheme
+    typeConfig:
+      options:
+        - text: Blue
+          value: blue
+        - text: Green
+          value: green
+        - text: Purple
+          value: purple
+        - text: Orange
+          value: orange
+        - text: Pink
+          value: pink
+        - text: Teal
+          value: teal
+  - id: title
+    name: Title
+    type: text
+    guidance: Short, clear title (2-4 words)
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Brief explanation (5-10 words)
+    localizable: true
+description: Individual trust indicator with icon, title, and description
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T23:41:45.671648+00:00'
+updated: '2025-12-10T23:41:45.671648+00:00'

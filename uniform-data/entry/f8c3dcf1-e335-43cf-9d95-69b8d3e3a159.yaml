@@ -1,0 +1,490 @@
+created: '2025-12-12T14:11:21.483487+00:00'
+modified: '2025-12-12T14:11:21.483487+00:00'
+pattern: false
+entry:
+  _id: f8c3dcf1-e335-43cf-9d95-69b8d3e3a159
+  _name: Tokyo
+  _slug: tokyo-japan
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Tokyo
+    rating:
+      type: number
+      value: 4.8
+    climate:
+      type: text
+      value: Temperate
+    country:
+      type: text
+      value: Japan
+    featured:
+      type: checkbox
+      value: 'true'
+    languages:
+      type: text
+      value: Japanese, English (in tourist areas)
+    highlights:
+      type: text
+      locales:
+        en-US: >-
+          Cherry Blossoms, Temples & Shrines, Sushi & Ramen, Shibuya Crossing,
+          Mount Fuji, Pop Culture
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Discover Tokyo: Where Tradition Meets Innovation'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Tokyo, Japan’s dazzling capital, is a city where ancient
+                      traditions seamlessly blend with futuristic innovation,
+                      making it a must-visit destination for travelers seeking a
+                      truly unique cultural experience. From the neon-lit
+                      streets of 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Shibuya
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      —famous for its iconic scramble crossing and youthful
+                      energy—to the vibrant entertainment and nightlife of 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Shinjuku
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ', Tokyo pulses with life at every corner.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Amidst the urban excitement, you’ll find pockets of
+                      tranquility in the city’s 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: serene temples and shrines
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: '. The historic '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Senso-ji Temple
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' in Asakusa, Tokyo’s oldest Buddhist temple, invites visitors to soak in centuries of spiritual heritage. The majestic '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Imperial Palace
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , surrounded by lush gardens and moats, offers a glimpse
+                      into Japan’s imperial history and is a peaceful oasis in
+                      the heart of the metropolis.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Springtime in Tokyo is nothing short of magical. The city
+                      transforms during 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: cherry blossom season
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' (sakura), when parks like Ueno and Shinjuku Gyoen are blanketed in delicate pink blooms, creating unforgettable scenes for hanami (flower viewing) picnics.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Tokyo is a paradise for food lovers. Savor '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: world-renowned sushi
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' at Tsukiji Outer Market or indulge in steaming bowls of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: ramen
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' at local shops and Michelin-starred establishments alike. The city’s culinary scene is as diverse as it is delicious, offering everything from traditional izakayas to avant-garde dining experiences.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'As night falls, Tokyo comes alive with '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: vibrant nightlife and entertainment
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Explore karaoke bars, themed cafes, and dazzling
+                      nightclubs, or catch a live performance in the bustling
+                      districts. The city’s 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: cutting-edge technology and architecture
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' are on full display in areas like Akihabara and Odaiba, where futuristic skyscrapers and digital art installations showcase Tokyo’s innovative spirit.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'For a taste of tradition, participate in a '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Japanese tea ceremony
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' or witness the elegance of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: geisha performances
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' in historic neighborhoods. Shopping enthusiasts will delight in the upscale boutiques of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Ginza
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ', the quirky fashion of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Harajuku
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , and the endless variety of electronics, anime, and pop
+                      culture goods throughout the city.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Tokyo’s '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: efficient public transportation
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' system makes it easy to explore every corner of the city and beyond. Take a day trip to the iconic '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Mount Fuji
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , just a short train ride away, for breathtaking views and
+                      outdoor adventures.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'With its '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: temperate climate
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , Tokyo is a year-round destination. Whether you’re drawn
+                      by the cherry blossoms of spring, the vibrant festivals of
+                      summer, the colorful foliage of autumn, or the crisp air
+                      of winter, Tokyo offers something special in every season.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Experience the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: unique blend of old and new
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' that defines Tokyo—a city where centuries-old traditions coexist with the latest trends and technologies. From its rich cultural heritage to its dynamic urban energy, Tokyo promises an unforgettable journey for every traveler.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    reviewCount:
+      type: number
+      value: 2134
+    startingPrice:
+      type: number
+      value: 1599
+    bestTimeToVisit:
+      type: text
+      value: March - May (Cherry Blossoms), October - November (Fall Colors)
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience a dazzling metropolis where ancient traditions blend
+          seamlessly with futuristic innovation, world-class cuisine, and
+          vibrant pop culture.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

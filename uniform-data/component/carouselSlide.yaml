@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: carouselSlide
+name: Carousel Slide
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: 'Slide background image (recommended: 1600x700px)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: title
+    name: Title
+    type: text
+    guidance: Slide title text (appears over image)
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Slide description text
+    localizable: true
+  - id: showOverlay
+    name: Show Overlay
+    type: checkbox
+    guidance: Display text overlay on slide
+description: Individual slide for carousel with image and optional text overlay
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-11T20:30:01.780393+00:00'
+updated: '2025-12-11T20:30:01.780393+00:00'

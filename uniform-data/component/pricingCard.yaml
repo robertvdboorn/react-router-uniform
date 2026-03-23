@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: pricingCard
+name: Pricing Card
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Package name
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    guidance: Price amount
+  - id: period
+    name: Period
+    type: text
+    guidance: Pricing period
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Package description
+    localizable: true
+  - id: featured
+    name: Featured
+    type: checkbox
+    guidance: Highlight this package
+  - id: buttonText
+    name: Button Text
+    type: text
+    guidance: CTA button text
+    localizable: true
+  - id: buttonUrl
+    name: Button URL
+    type: text
+    guidance: Button link
+description: Pricing card for travel packages
+useTeamPermissions: true
+slots:
+  - id: features
+    name: Features
+    allowedComponents:
+      - pricingFeature
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T15:31:16.259178+00:00'
+updated: '2025-12-10T15:31:16.259178+00:00'

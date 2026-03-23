@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigation
+name: Navigation
+icon: screen
+parameters:
+  - id: logoText
+    name: Logo Text
+    type: text
+    guidance: Brand name or logo text to display (e.g., 'TravelCo', 'Wanderlust')
+    localizable: true
+description: >-
+  Responsive navigation bar with logo and dynamic link items. Supports mobile
+  menu and glassmorphism design.
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    allowedComponents:
+      - navigationLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: logoText
+canBeComposition: false
+created: '2025-12-10T15:18:52.632859+00:00'
+updated: '2025-12-10T15:18:52.632859+00:00'

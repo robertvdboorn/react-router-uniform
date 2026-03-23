@@ -1,0 +1,80 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: imageSection
+name: Image Section
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section heading
+    typeConfig:
+      required: false
+    localizable: true
+  - id: content
+    name: Content
+    type: richText
+    guidance: Rich text content to display alongside the image
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: imageUrl
+    name: Image URL
+    type: text
+    guidance: URL of the image to display
+    typeConfig:
+      required: false
+  - id: imageAlt
+    name: Image Alt Text
+    type: text
+    guidance: Describe the image for accessibility (screen readers, SEO)
+    typeConfig:
+      required: false
+    localizable: true
+  - id: imagePosition
+    name: Image Position
+    type: select
+    guidance: Which side to display the image on
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Right
+          value: right
+      required: false
+description: A content section with image and rich text side-by-side
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T14:15:16.952867+00:00'
+updated: '2025-12-10T14:15:16.952867+00:00'

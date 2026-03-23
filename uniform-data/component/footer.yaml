@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: footer
+name: Footer
+icon: screen
+parameters:
+  - id: companyName
+    name: Company Name
+    type: text
+    guidance: Brand or company name for footer logo
+    localizable: true
+  - id: tagline
+    name: Tagline
+    type: text
+    guidance: Brief company description or tagline
+    localizable: true
+  - id: copyrightText
+    name: Copyright Text
+    type: text
+    guidance: Copyright notice (e.g., © 2024 Company Name)
+    localizable: true
+description: Premium footer with company info, navigation links, and social media icons
+useTeamPermissions: true
+slots:
+  - id: destinationLinks
+    name: Destination Links
+    allowedComponents:
+      - footerLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: companyLinks
+    name: Company Links
+    allowedComponents:
+      - footerLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: supportLinks
+    name: Support Links
+    allowedComponents:
+      - footerLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: companyName
+canBeComposition: false
+created: '2025-12-11T20:26:25.363278+00:00'
+updated: '2025-12-11T21:06:48.742906+00:00'

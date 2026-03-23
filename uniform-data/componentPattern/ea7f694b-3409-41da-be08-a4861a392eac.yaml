@@ -1,0 +1,47 @@
+composition:
+  _name: Destination Breadcrumbs
+  _id: ea7f694b-3409-41da-be08-a4861a392eac
+  type: breadcrumbs
+  slots:
+    items:
+      - _id: 1fc187f1-3fe7-4dc5-9d70-ebf11b0b310b
+        type: breadcrumbItem
+        parameters:
+          label:
+            type: text
+            locales:
+              en-US: Home
+        _overridability:
+          parameters:
+            label: 'no'
+      - _id: 30fe029c-a316-45f7-9740-c510a57fb217
+        type: breadcrumbItem
+        parameters:
+          label:
+            type: text
+            locales:
+              en-US: Destinations
+        _overridability:
+          parameters:
+            label: 'no'
+      - _id: 392d90e2-26e4-4714-a0ef-6f2c312429f1
+        type: breadcrumbItem
+        parameters:
+          label:
+            type: text
+            locales:
+              en-US: Bali
+          isLast:
+            type: checkbox
+            value: 'true'
+        _overridability:
+          parameters:
+            label: 'yes'
+            isLast: 'yes'
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:56:00.819517+00:00'
+modified: '2025-12-12T14:56:51.613765+00:00'
+pattern: true

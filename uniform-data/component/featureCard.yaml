@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: featureCard
+name: Feature Card
+icon: screen
+parameters:
+  - id: icon
+    name: Icon
+    type: select
+    guidance: Select an icon to display
+    typeConfig:
+      options:
+        - text: Globe
+          value: globe
+        - text: Map Pin
+          value: map
+        - text: Sparkles
+          value: sparkles
+        - text: Trophy
+          value: trophy
+        - text: Heart
+          value: heart
+        - text: Star
+          value: star
+        - text: Users
+          value: users
+        - text: Shield Check
+          value: shield
+        - text: Bolt
+          value: bolt
+        - text: Sun
+          value: sun
+        - text: Camera
+          value: camera
+        - text: Trending Up
+          value: trending
+      required: false
+  - id: title
+    name: Title
+    type: text
+    guidance: Feature name or benefit - keep it concise (2-5 words)
+    typeConfig:
+      required: false
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Explain the feature or benefit - 1-2 sentences
+    typeConfig:
+      required: false
+    localizable: true
+description: A card displaying a feature or benefit with icon, title, and description
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T14:15:08.761246+00:00'
+updated: '2025-12-10T23:33:12.532044+00:00'

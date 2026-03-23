@@ -1,0 +1,98 @@
+composition:
+  _name: Testimonial Carousel
+  _id: fbc917ba-1471-46d9-8c10-138476d7cf4e
+  type: carousel
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: What Our Travelers Say
+    autoplay:
+      type: checkbox
+      value: 'true'
+    subtitle:
+      type: text
+      locales:
+        en-US: Hear from those who've experienced our luxury journeys.
+  slots:
+    slides:
+      - _id: ee9fe051-4e91-4f06-a010-691ae25f6778
+        type: testimonial
+        parameters:
+          role:
+            type: text
+            locales:
+              en-US: California, USA
+          quote:
+            type: text
+            locales:
+              en-US: >-
+                The attention to detail was extraordinary. From the moment we
+                arrived, every aspect of our journey exceeded our expectations.
+                Truly a once-in-a-lifetime experience.
+          author:
+            type: text
+            locales:
+              en-US: Sarah & Michael Chen
+        _overridability:
+          parameters:
+            role: 'yes'
+            quote: 'yes'
+            author: 'yes'
+      - _id: 45ee2d06-2409-4727-914d-2fa8e2e13764
+        type: testimonial
+        parameters:
+          role:
+            type: text
+            locales:
+              en-US: London, UK
+          quote:
+            type: text
+            locales:
+              en-US: >-
+                We've traveled extensively, but this experience was
+                unparalleled. The curated itinerary, exclusive access, and
+                impeccable service made this our most memorable journey yet.
+          author:
+            type: text
+            locales:
+              en-US: James Wellington
+        _overridability:
+          parameters:
+            role: 'yes'
+            quote: 'yes'
+            author: 'yes'
+      - _id: 588c3e29-4f97-42aa-b8da-b0da48a5918e
+        type: testimonial
+        parameters:
+          role:
+            type: text
+            locales:
+              en-US: Barcelona, Spain
+          quote:
+            type: text
+            locales:
+              en-US: >-
+                An absolutely transformative experience. The team understood our
+                vision perfectly and delivered beyond imagination. We discovered
+                hidden gems we never would have found on our own.
+          author:
+            type: text
+            locales:
+              en-US: Emma Rodriguez
+        _overridability:
+          parameters:
+            role: 'yes'
+            quote: 'yes'
+            author: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      autoplay: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:41:56.978856+00:00'
+modified: '2025-12-11T20:42:13.162641+00:00'
+pattern: true

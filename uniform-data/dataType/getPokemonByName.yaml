@@ -1,0 +1,16 @@
+id: getPokemonByName
+displayName: Get Pokemon by Name
+ttl: 30
+path: /pokemon/${Pokemon Name}
+custom:
+  proposedName: pokemon/${Pokemon Name}
+method: GET
+purgeKey: 8e3c22c3-47b5-47f4-a013-277398373bf9
+archetype: default
+variables:
+  Pokemon Name:
+    type: text
+    default: pikachu
+    helpText: The name of the Pokemon
+dataSourceId: pokemonApi
+allowedOnComponents: []

@@ -1,0 +1,7 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Block admin/preview routes
+Disallow: /api/
+Disallow: /uniform-playground

@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: tabs
+name: Tabs
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Optional section title above tabs
+    localizable: true
+  - id: defaultTab
+    name: Default Tab
+    type: number
+    guidance: Index of tab to show by default (0 = first tab)
+description: Tabbed content organizer for detail pages and multi-section content
+useTeamPermissions: true
+slots:
+  - id: panels
+    name: Panels
+    maxComponents: 8
+    minComponents: 2
+    allowedComponents:
+      - tabPanel
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-12T14:47:02.494991+00:00'
+updated: '2025-12-12T14:47:02.494991+00:00'

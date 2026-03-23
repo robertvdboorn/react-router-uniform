@@ -1,0 +1,40 @@
+composition:
+  _name: Santorini Destination Card
+  _id: 7bd929ad-50ce-4162-8b0e-85370b9a3781
+  type: destinationCard
+  parameters:
+    name:
+      type: text
+      locales:
+        en-US: Santorini, Greece
+    price:
+      type: text
+      value: From $1,899
+    rating:
+      type: text
+      value: '4.9'
+    reviews:
+      type: text
+      locales:
+        en-US: 3,521 reviews
+    imageUrl:
+      type: text
+      value: https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800
+    location:
+      type: text
+      locales:
+        en-US: Cyclades, Greece
+  _overridability:
+    parameters:
+      name: 'no'
+      price: 'yes'
+      rating: 'no'
+      reviews: 'no'
+      imageUrl: 'yes'
+      location: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:57:13.82878+00:00'
+modified: '2025-12-12T14:57:13.82878+00:00'
+pattern: true

@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: tabPanel
+name: Tab Panel
+icon: screen
+parameters:
+  - id: tabLabel
+    name: Tab Label
+    type: text
+    guidance: Label shown in tab navigation (e.g., 'Overview', 'Itinerary')
+    localizable: true
+description: Individual content panel for tabs component
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    maxComponents: 10
+    allowedComponents:
+      - textBlock
+      - imageSection
+      - featureGrid
+      - itinerary
+      - testimonial
+      - faqSection
+      - imageGallery
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: tabLabel
+canBeComposition: false
+created: '2025-12-12T14:47:03.259934+00:00'
+updated: '2025-12-12T14:47:03.259934+00:00'

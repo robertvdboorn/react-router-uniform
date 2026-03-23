@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: dealBanner
+name: Deal Banner
+icon: screen
+parameters:
+  - id: badge
+    name: Badge
+    type: text
+    guidance: Urgency indicator (e.g., 'Limited Offer', 'Last Chance')
+    localizable: true
+  - id: title
+    name: Title
+    type: text
+    guidance: Main deal headline - make it compelling (2-8 words)
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Brief details about the offer (1-2 sentences)
+    localizable: true
+description: Promotional banner for highlighting special deals and limited-time offers
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: CTA
+    maxComponents: 2
+    allowedComponents:
+      - buttonLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: badge
+canBeComposition: false
+created: '2025-12-10T23:41:43.618622+00:00'
+updated: '2025-12-10T23:41:43.618622+00:00'

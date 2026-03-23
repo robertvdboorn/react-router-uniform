@@ -1,0 +1,317 @@
+created: '2025-12-12T14:02:25.5121+00:00'
+modified: '2025-12-12T15:00:38.171368+00:00'
+pattern: false
+entry:
+  _id: f09bd90a-7e81-4cfc-a7c1-cc54d15864cb
+  _name: Maldives
+  _slug: maldives
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/FFzMObCSQY6OqavraGD04w-photo-1555400038-63f5ba517a47.avif
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Maldives
+    rating:
+      type: number
+      value: 4.9
+    climate:
+      type: text
+      value: Tropical
+    country:
+      type: text
+      value: Maldives
+    featured:
+      type: checkbox
+      value: 'true'
+    languages:
+      type: text
+      value: Dhivehi, English
+    highlights:
+      type: text
+      locales:
+        en-US: >-
+          Overwater Villas, Coral Reefs, Marine Life, Private Islands, Spa
+          Retreats, Water Sports
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The Maldives: The Ultimate Luxury Escape'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Welcome to the Maldives, a breathtaking archipelago in the
+                      Indian Ocean renowned for its unparalleled beauty and
+                      luxury. This bucket-list destination is famous for its 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: iconic overwater bungalows and villas
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , where you can wake up to the gentle sound of waves and
+                      step directly into crystal-clear turquoise waters. Each
+                      villa offers privacy, comfort, and stunning panoramic
+                      views, making it the perfect setting for a romantic
+                      getaway or honeymoon.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The Maldives is a paradise for '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: diving and snorkeling enthusiasts
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Its vibrant coral reefs teem with colorful marine life,
+                      including majestic manta rays, playful dolphins, and the
+                      elusive whale shark. Whether you’re a seasoned diver or a
+                      first-time snorkeler, the underwater world here promises
+                      unforgettable encounters and mesmerizing sights.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Indulge in the exclusivity of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: pristine private island resorts
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , where personalized service and world-class amenities
+                      create an atmosphere of pure relaxation. Many resorts
+                      feature 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: underwater restaurants and spas
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , allowing you to dine or unwind while surrounded by the
+                      wonders of the ocean.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The Maldives is also a haven for '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: water sports
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' lovers. Try your hand at surfing the gentle waves, paddleboarding across tranquil lagoons, or kayaking at sunset. For a truly magical experience, visit the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: bioluminescent beaches
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' where the shoreline glows with natural blue light, creating a fairytale-like ambiance.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Committed to '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: sustainable luxury tourism
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , many Maldivian resorts prioritize eco-friendly
+                      practices, ensuring that the islands’ natural beauty is
+                      preserved for generations to come. Savor 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: fresh seafood and international cuisine
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' prepared by world-class chefs, with flavors inspired by the sea and global culinary traditions.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'With its '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: tropical climate
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' offering warm sunshine year-round, the Maldives is the ultimate destination for those seeking relaxation, adventure, and romance. Whether you’re celebrating a special occasion or simply looking to escape the ordinary, the Maldives promises an experience that is truly extraordinary.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    reviewCount:
+      type: number
+      value: 1956
+    startingPrice:
+      type: number
+      value: 2499
+    bestTimeToVisit:
+      type: text
+      value: November - April (Dry Season)
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience an overwater paradise with turquoise lagoons, white sand
+          beaches, and luxurious resorts. Perfect for a relaxing and
+          unforgettable getaway.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,29 @@
+composition:
+  _name: Cinematic Travel Hero
+  _id: 38236416-fc60-4f02-a461-821c94602982
+  type: videoHero
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Experience the World Like Never Before
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          Embark on extraordinary journeys to breathtaking destinations with our
+          curated luxury travel experiences.
+    overlayOpacity:
+      type: number
+      value: 45
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+      overlayOpacity: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T21:16:42.108256+00:00'
+modified: '2025-12-11T21:16:42.108256+00:00'
+pattern: true

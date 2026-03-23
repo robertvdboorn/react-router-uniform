@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: textBlock
+name: Text Block
+icon: screen
+parameters:
+  - id: content
+    name: Content
+    type: richText
+    guidance: Rich text content with formatting, links, lists, etc.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+description: A simple text block for rich text content
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-12-10T14:15:00.930909+00:00'
+updated: '2025-12-10T14:15:00.930909+00:00'

@@ -1,0 +1,413 @@
+created: '2025-12-12T14:02:26.281019+00:00'
+modified: '2025-12-12T14:02:26.281019+00:00'
+pattern: false
+entry:
+  _id: 275ca38c-befb-43d8-a8bc-dda414cb585b
+  _name: Santorini
+  _slug: santorini-greece
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Santorini
+    rating:
+      type: number
+      value: 4.9
+    climate:
+      type: text
+      value: Mediterranean
+    country:
+      type: text
+      value: Greece
+    featured:
+      type: checkbox
+      value: 'true'
+    languages:
+      type: text
+      value: Greek, English
+    highlights:
+      type: text
+      locales:
+        en-US: >-
+          Sunset Views, Caldera Views, Wine Tasting, Cave Hotels, Blue-Domed
+          Churches, Volcanic Beaches
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Santorini: The Jewel of the Aegean'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Santorini, a crescent-shaped island in the heart of the
+                      Aegean Sea, is a destination that enchants travelers with
+                      its breathtaking beauty and timeless allure. Famed for
+                      its 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: legendary sunsets in Oia
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , where the sky blazes with hues of gold and crimson as
+                      the sun dips below the caldera, Santorini is a
+                      photographer’s paradise and a dream for romantics.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The island’s iconic '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: blue-domed churches
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: white-washed architecture
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' cling to dramatic cliffs, creating a striking contrast against the deep azure of the sea. Wandering through the narrow, winding streets of Oia and the vibrant capital of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Fira
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , visitors are treated to postcard-perfect views at every
+                      turn, making Santorini one of the 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: most photographed destinations in the world
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: .
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Santorini’s volcanic origins have blessed it with '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: unique black and red sand beaches
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , such as Perissa and Red Beach, where the unusual colors
+                      and crystal-clear waters offer a beach experience unlike
+                      any other. History enthusiasts will be captivated by the 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: ancient ruins of Akrotiri
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , a remarkably preserved Minoan city often called the
+                      "Pompeii of the Aegean," offering a fascinating glimpse
+                      into the island’s distant past.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Wine lovers can indulge in '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: wine tasting at volcanic vineyards
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , where the mineral-rich soil imparts a distinctive
+                      character to local varietals like Assyrtiko. Many wineries
+                      offer tours and tastings with panoramic views of the
+                      caldera, making for an unforgettable sensory experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'For those seeking luxury and romance, Santorini’s '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: cave hotels
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' provide an extraordinary stay. Carved into the cliffs, these boutique accommodations offer private terraces, infinity pools, and sweeping sea views—perfect for couples and honeymooners seeking a magical escape.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The island’s '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: romantic atmosphere
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is further enhanced by its world-class '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Greek cuisine
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Savor fresh seafood, sun-ripened vegetables, and local
+                      specialties at cliffside tavernas, where every meal is
+                      accompanied by stunning vistas and warm Mediterranean
+                      hospitality.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Adventure awaits on '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: sailing excursions around the caldera
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , where you can explore hidden coves, swim in hot springs,
+                      and witness the island’s dramatic volcanic landscape from
+                      the water. Whether you’re exploring the lively streets of
+                      Fira, relaxing on a sun-drenched beach, or toasting to
+                      love at sunset, Santorini promises memories that will last
+                      a lifetime.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'With its '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Mediterranean climate
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      —characterized by warm, sunny days and gentle sea
+                      breezes—Santorini is an idyllic destination year-round.
+                      Its blend of natural wonders, rich history, and romantic
+                      charm make it a must-visit for travelers seeking beauty,
+                      culture, and unforgettable experiences.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    reviewCount:
+      type: number
+      value: 3521
+    startingPrice:
+      type: number
+      value: 1899
+    bestTimeToVisit:
+      type: text
+      value: April - November
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience stunning sunsets from white-washed villages perched on
+          volcanic cliffs, offering panoramic views of the deep blue Aegean Sea.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

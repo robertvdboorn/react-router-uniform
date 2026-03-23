@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: galleryImage
+name: Gallery Image
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: 'Gallery photo (recommended: 600x600px minimum)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: caption
+    name: Caption
+    type: text
+    guidance: Optional image caption
+    localizable: true
+description: Individual image for the image gallery with hover effects
+useTeamPermissions: true
+slots: []
+titleParameter: caption
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-11T21:15:34.184224+00:00'
+updated: '2025-12-11T21:15:34.184224+00:00'

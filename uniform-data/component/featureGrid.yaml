@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: featureGrid
+name: Feature Grid
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main heading for the features section
+    typeConfig:
+      required: false
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting text for the features section - 1-2 sentences
+    typeConfig:
+      required: false
+    localizable: true
+  - id: columns
+    name: Columns
+    type: select
+    guidance: Number of columns to display on desktop
+    typeConfig:
+      options:
+        - text: 2 Columns
+          value: '2'
+        - text: 3 Columns
+          value: '3'
+        - text: 4 Columns
+          value: '4'
+      required: false
+description: A container displaying feature cards in a responsive grid layout
+useTeamPermissions: true
+slots:
+  - id: features
+    name: Features
+    minComponents: 1
+    allowedComponents:
+      - featureCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T14:15:36.073457+00:00'
+updated: '2025-12-10T14:15:36.073457+00:00'

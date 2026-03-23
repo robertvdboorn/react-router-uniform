@@ -1,0 +1,23 @@
+composition:
+  _name: Luxury Search Hero
+  _id: e571db08-87cd-45de-b713-fb20fc93ee7e
+  type: searchHero
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Find Your Perfect Escape
+    subtitle:
+      type: text
+      locales:
+        en-US: Search from over 250 handpicked luxury destinations worldwide.
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:40:03.486102+00:00'
+modified: '2025-12-11T20:40:39.748576+00:00'
+pattern: true

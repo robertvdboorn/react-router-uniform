@@ -1,0 +1,117 @@
+composition:
+  _name: Bali Luxury Experience
+  _id: 18fdf9b7-324b-4931-b418-266180161cdb
+  type: travelPackageCard
+  parameters:
+    name:
+      type: text
+      locales:
+        en-US: Ultimate Bali Luxury Experience
+    badge:
+      type: text
+      locales:
+        en-US: Best Seller
+    image:
+      type: asset
+      value:
+        - _id: 2cfb76ed-6c4a-412b-8420-5f3c63e4e5cc
+          type: image
+          fields:
+            id:
+              type: text
+              value: 69994da7-5396-4ade-96a9-e2238e578eda
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/iC9PGTGqQOe9ed4_1oL_pw-photo-1554481923-a6918bd997bc.png
+              type: text
+            file:
+              type: file
+              value: 8e42f535-a93b-44d3-965d-084d8faad1f8
+            size:
+              value: 8020906
+              type: number
+            title:
+              type: text
+              value: photo-1554481923-a6918bd997bc.png
+            width:
+              value: 2565
+              type: number
+            height:
+              value: 3206
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    price:
+      type: text
+      locales:
+        en-US: $4,299
+    duration:
+      type: text
+      locales:
+        en-US: 10 Days, 9 Nights
+    location:
+      type: text
+      locales:
+        en-US: Bali, Indonesia
+    groupSize:
+      type: text
+      locales:
+        en-US: Up to 8 guests
+  slots:
+    features:
+      - _id: 3172d8f5-286f-4605-88ee-5d4d36ce17b4
+        type: packageFeature
+        parameters:
+          text:
+            type: text
+            locales:
+              en-US: 5-star beachfront resort accommodation
+        _overridability:
+          parameters:
+            text: 'yes'
+      - _id: 6eb5d747-f6d8-4312-a89a-00623b01749b
+        type: packageFeature
+        parameters:
+          text:
+            type: text
+            locales:
+              en-US: Private villa with infinity pool
+        _overridability:
+          parameters:
+            text: 'yes'
+      - _id: c1d4e201-da16-410b-a0ce-33be19e97050
+        type: packageFeature
+        parameters:
+          text:
+            type: text
+            locales:
+              en-US: Daily spa treatments & wellness sessions
+        _overridability:
+          parameters:
+            text: 'yes'
+      - _id: 4915936f-7522-40f3-88b0-b2979fc18df3
+        type: packageFeature
+        parameters:
+          text:
+            type: text
+            locales:
+              en-US: Private chauffeur & concierge service
+        _overridability:
+          parameters:
+            text: 'yes'
+  _overridability:
+    parameters:
+      name: 'yes'
+      badge: 'yes'
+      price: 'yes'
+      duration: 'yes'
+      location: 'yes'
+      groupSize: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:41:13.130546+00:00'
+modified: '2025-12-12T15:09:55.156861+00:00'
+pattern: true

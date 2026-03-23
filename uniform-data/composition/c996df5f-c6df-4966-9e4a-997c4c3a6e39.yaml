@@ -1,0 +1,347 @@
+composition:
+  _name: Destinations
+  _id: c996df5f-c6df-4966-9e4a-997c4c3a6e39
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: '1'
+          key: '2'
+          str: 1
+  slots:
+    content:
+      - _id: 580b9290-6518-4f83-98d5-e7045e5c7b06
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: e457fa7d-2108-4bde-b1a6-7c61e194b7c7
+        type: hero
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: Discover the World
+          title:
+            type: text
+            locales:
+              en-US: Explore Dream Destinations
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                Explore stunning beaches and historic cities with our curated
+                travel destinations, perfect for your next unforgettable
+                adventure.
+      - _id: a403d6dd-9b10-4fc1-845c-280a446d0d3e
+        type: socialProofBanner
+        _pattern: fa4455c5-f8c6-4d80-900a-ccea4f78d963
+      - _id: 352221fe-ec5c-454e-ab63-c7b28b4aa639
+        type: contentSection
+        slots:
+          content:
+            - _id: fd548bfb-569f-4f08-9e3a-882ce566d6ce
+              type: featureGrid
+              slots:
+                features:
+                  - _id: afd7d7e4-1b2c-4344-9fa3-4b938694bd90
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: sun
+                      title:
+                        type: text
+                        locales:
+                          en-US: Maldives Paradise
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy crystal-clear waters, overwater bungalows, and
+                            pristine white sand beaches for a truly luxurious
+                            escape in the Indian Ocean.
+                  - _id: 162a3a8c-7171-4d55-8b65-23fd8d344c8f
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: sparkles
+                      title:
+                        type: text
+                        locales:
+                          en-US: Japan Adventures
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Experience a unique fusion of tradition and
+                            modernity, where ancient temples and cherry blossoms
+                            coexist with vibrant, cutting-edge cities. Enjoy the
+                            perfect balance of cultural heritage and innovative
+                            urban life.
+                  - _id: 7fa48a3c-25ca-4728-8ce4-fdd5a864e19b
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: map
+                      title:
+                        type: text
+                        locales:
+                          en-US: Swiss Alps Explorer
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy snow-capped mountains, picturesque villages,
+                            and stunning hiking trails for the ultimate alpine
+                            adventure.
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Top Destinations
+                subtitle:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Handpicked locations that will make your travel dreams
+                      come true.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Featured Destinations
+      - _id: e05d20fe-cf3d-4f6e-97d6-566339d71a98
+        type: contentSection
+        slots:
+          content:
+            - _id: 1f8e77b6-417c-41e1-9e4f-1783b8798972
+              type: destinationCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Bali Island Escape, Indonesia
+                price:
+                  type: text
+                  value: From $1,299
+                rating:
+                  type: text
+                  value: '4.8'
+                reviews:
+                  type: text
+                  locales:
+                    en-US: 2,847 reviews
+                imageUrl:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800
+                location:
+                  type: text
+                  locales:
+                    en-US: Indonesia
+            - _id: fa4569f3-3143-43b8-9831-41fe33ac83ef
+              type: destinationCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Santorini, Greece
+                price:
+                  type: text
+                  value: From $1,899
+                rating:
+                  type: text
+                  value: '4.9'
+                reviews:
+                  type: text
+                  locales:
+                    en-US: 3,521 reviews
+                imageUrl:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800
+                location:
+                  type: text
+                  locales:
+                    en-US: Greece
+            - _id: 60721822-5e3f-4736-9bd2-ad4febe72e55
+              type: destinationCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Maldives Paradise Escape
+                price:
+                  type: text
+                  value: From $2,499
+                rating:
+                  type: text
+                  value: '4.9'
+                reviews:
+                  type: text
+                  locales:
+                    en-US: 1,956 reviews
+                imageUrl:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800
+                location:
+                  type: text
+                  locales:
+                    en-US: Maldives
+            - _id: e3c81958-746c-45c3-977c-4a1ab9e332ed
+              type: destinationCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Swiss Alps
+                price:
+                  type: text
+                  value: From $2,199
+                rating:
+                  type: text
+                  value: '4.8'
+                reviews:
+                  type: text
+                  locales:
+                    en-US: 1,654 reviews
+                imageUrl:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800
+                location:
+                  type: text
+                  locales:
+                    en-US: Switzerland
+            - _id: 111c587d-b746-4ed0-83d4-85411db322aa
+              type: destinationCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Iceland Adventure
+                price:
+                  type: text
+                  value: From $1,799
+                rating:
+                  type: text
+                  value: '4.7'
+                reviews:
+                  type: text
+                  locales:
+                    en-US: 892 reviews
+                imageUrl:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800
+                location:
+                  type: text
+                  locales:
+                    en-US: Iceland
+            - _id: 17d4f2f9-f55b-459f-8937-78e42baad6bd
+              type: destinationCard
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    en-US: Tokyo, Japan
+                price:
+                  type: text
+                  value: From $1,599
+                rating:
+                  type: text
+                  value: '4.8'
+                reviews:
+                  type: text
+                  locales:
+                    en-US: 2,134 reviews
+                imageUrl:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800
+                location:
+                  type: text
+                  locales:
+                    en-US: Japan
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: 🌍 All Destinations
+      - _id: e475fa85-ff95-4b1a-81c4-ef2b74f26b68
+        type: callToAction
+        slots:
+          buttons:
+            - _id: 1b3acacc-8cbf-4f8a-93aa-3fd7328a1bdc
+              type: buttonLink
+              parameters:
+                size:
+                  type: select
+                  value: large
+                text:
+                  type: text
+                  locales:
+                    en-US: Talk to an Expert
+                variant:
+                  type: select
+                  value: cta-primary
+            - _id: dd4cc722-3797-4c15-8569-75cc09e91937
+              type: buttonLink
+              parameters:
+                size:
+                  type: select
+                  value: large
+                text:
+                  type: text
+                  locales:
+                    en-US: View All Destinations
+                variant:
+                  type: select
+                  value: cta-secondary
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: Expert Help
+          title:
+            type: text
+            locales:
+              en-US: Get Expert Help Planning Your Next Step
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Our travel experts are here to help you create the perfect
+                itinerary. Get personalized recommendations tailored to your
+                interests and travel style.
+      - _id: 223aa1f1-ae73-4286-bb10-f6562bf1a328
+        type: newsletter
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Never Miss an Adventure
+          buttonText:
+            type: text
+            locales:
+              en-US: Join Now
+          placeholder:
+            type: text
+            locales:
+              en-US: your@email.com
+      - _id: e78adcf4-a8f2-4920-b05f-848289cf6588
+        type: carousel
+        _pattern: fbc917ba-1471-46d9-8c10-138476d7cf4e
+      - _id: fc0e65d9-e3af-4db3-af1a-b0944c7060af
+        type: footer
+        _pattern: a3c0d11e-0169-4358-bf81-b3b73771f410
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-10T15:33:29.297395+00:00'
+modified: '2025-12-12T14:41:26.539923+00:00'
+pattern: false

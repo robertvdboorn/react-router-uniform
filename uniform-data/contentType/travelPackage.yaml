@@ -1,0 +1,152 @@
+id: travelPackage
+name: Travel Package
+created: '2025-12-12T14:00:24.779696+00:00'
+updated: '2025-12-12T14:00:24.779696+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: packageName
+    name: Package Name
+    type: text
+    guidance: Name of the travel package (e.g., 'Luxury Bali Retreat')
+    localizable: false
+  - id: destination
+    name: Destination
+    type: contentReference
+    guidance: Link to the destination entry
+    typeConfig:
+      isMulti: false
+      allowedContentTypes:
+        - destination
+    localizable: false
+  - id: description
+    name: Description
+    type: richText
+    guidance: Detailed package description with itinerary and highlights
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: shortDescription
+    name: Short Description
+    type: text
+    guidance: Brief 1-2 sentence overview for card displays
+    localizable: true
+  - id: featuredImage
+    name: Featured Image
+    type: asset
+    guidance: 'Main image for the package (recommended: 1200x800)'
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: false
+  - id: duration
+    name: Duration
+    type: text
+    guidance: Package duration (e.g., '7 Days / 6 Nights')
+    localizable: false
+  - id: price
+    name: Price
+    type: number
+    guidance: Package price in USD per person
+    typeConfig:
+      min: 0
+    localizable: false
+  - id: originalPrice
+    name: Original Price
+    type: number
+    guidance: Original price before discount (optional)
+    typeConfig:
+      min: 0
+    localizable: false
+  - id: packageType
+    name: Package Type
+    type: select
+    guidance: Category of travel package
+    typeConfig:
+      options:
+        - text: Luxury
+          value: luxury
+        - text: Adventure
+          value: adventure
+        - text: Cultural
+          value: cultural
+        - text: Romantic
+          value: romantic
+        - text: Family
+          value: family
+        - text: Wellness
+          value: wellness
+    localizable: false
+  - id: inclusions
+    name: Inclusions
+    type: text
+    guidance: >-
+      Comma-separated list of what's included (e.g., 'Flights, Hotel, Meals,
+      Tours')
+    localizable: true
+  - id: exclusions
+    name: Exclusions
+    type: text
+    guidance: What's not included in the package
+    localizable: true
+  - id: maxGroupSize
+    name: Max Group Size
+    type: number
+    guidance: Maximum number of travelers
+    typeConfig:
+      min: 1
+    localizable: false
+  - id: difficultyLevel
+    name: Difficulty Level
+    type: select
+    guidance: Physical difficulty level
+    typeConfig:
+      options:
+        - text: Easy
+          value: easy
+        - text: Moderate
+          value: moderate
+        - text: Challenging
+          value: challenging
+    localizable: false
+  - id: featured
+    name: Featured
+    type: checkbox
+    guidance: Mark as featured package to highlight on homepage
+    localizable: false
+entryName: packageName
+thumbnailField: featuredImage
+description: Complete travel package with itinerary, pricing, and inclusions
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations: []

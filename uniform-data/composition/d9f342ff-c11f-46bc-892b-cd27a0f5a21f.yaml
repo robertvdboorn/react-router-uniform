@@ -1,0 +1,104 @@
+composition:
+  _name: Wellness Bali Retreat - Package Detail
+  _id: d9f342ff-c11f-46bc-892b-cd27a0f5a21f
+  type: page
+  slots:
+    content:
+      - _id: d13b442b-8c11-4fa8-afb8-dea8e468d378
+        type: hero
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: 🧘 Wellness Experience
+          title:
+            type: text
+            locales:
+              en-US: 8-Day Wellness Bali Retreat
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                Rejuvenate your mind, body, and spirit with daily yoga, spa
+                treatments, organic cuisine, and mindfulness practices in Ubud's
+                serene jungle setting. Starting from $2,199 per person.
+      - _id: 9ad4c058-2a2e-4ed5-a2d9-e4e091c32b8d
+        type: itinerary
+        _pattern: 5e8207c8-9e44-4696-9292-01ad1ae34387
+      - _id: 8d3611bd-6762-45e6-83e6-0b355307af6e
+        type: contentSection
+        slots:
+          content:
+            - _id: 968e441f-3af0-4398-8df6-e3042e504c30
+              type: featureGrid
+              slots:
+                features:
+                  - _id: 4651e76c-27dc-439e-9053-c1ef7a91da0d
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: heart
+                      title:
+                        type: text
+                        locales:
+                          en-US: Daily Yoga & Meditation
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Morning and evening yoga sessions with expert
+                            instructors, plus guided meditation and breathwork
+                            workshops to support your well-being.
+                  - _id: 78275bc8-66be-449a-a1a4-a8737b0d2b59
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: sparkles
+                      title:
+                        type: text
+                        locales:
+                          en-US: Traditional Spa Treatments
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy Balinese massages, aromatherapy, chakra
+                            balancing, and sound healing sessions for a
+                            rejuvenating and holistic wellness experience.
+                  - _id: a9796bb0-ed47-49f6-b50f-aaa089998c39
+                    type: featureCard
+                    parameters:
+                      icon:
+                        type: select
+                        value: sun
+                      title:
+                        type: text
+                        locales:
+                          en-US: Organic Wellness Cuisine
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Savor farm-to-table organic meals, enjoy
+                            revitalizing detox juices, and participate in
+                            interactive cooking classes.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: What's Included in This Section
+      - _id: ff0e8ff1-cfcb-42ed-843c-865a094af1c1
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: 3c4754fc-34b3-4570-b4ce-d90288209e50
+        type: footer
+        _pattern: a3c0d11e-0169-4358-bf81-b3b73771f410
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:59:52.081983+00:00'
+modified: '2025-12-12T15:13:12.347708+00:00'
+pattern: false

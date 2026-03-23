@@ -1,0 +1,245 @@
+composition:
+  _name: Travel Package Pricing
+  _id: 7d80c4c2-528d-4b96-91b9-496381a4f4ff
+  type: pricingComparison
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Choose Your Perfect Journey
+    subtitle:
+      type: text
+      locales:
+        en-US: Select the travel package that matches your style and budget.
+  slots:
+    plans:
+      - _id: 4af5d22c-48e2-471e-a2ee-d730b7a397c3
+        type: pricingPlan
+        slots:
+          features:
+            - _id: b1cddd02-6c9f-410d-aa3a-83caa47752ee
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: 7 nights accommodation
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 53f036c4-9296-4522-af13-ff4a1dc6ec4f
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Round-trip flights
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: dc889937-9171-4704-b58c-a52271a77ff5
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Daily breakfast included
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 3456096b-7071-48dc-96de-fdc8d4e19819
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: 24/7 customer support
+              _overridability:
+                parameters:
+                  text: 'yes'
+        parameters:
+          price:
+            type: text
+            locales:
+              en-US: $1,299
+          period:
+            type: text
+            locales:
+              en-US: /person
+          planName:
+            type: text
+            locales:
+              en-US: Essentials
+          buttonText:
+            type: text
+            locales:
+              en-US: Book Essentials
+          description:
+            type: text
+            locales:
+              en-US: Perfect for budget-conscious travelers.
+        _overridability:
+          parameters:
+            price: 'yes'
+            period: 'yes'
+            planName: 'yes'
+            buttonText: 'yes'
+            description: 'yes'
+      - _id: 0e88040e-7672-4b58-a0fe-74e779f6c29f
+        type: pricingPlan
+        slots:
+          features:
+            - _id: c976a60a-97f7-4901-9fa3-52588ad8cac9
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: 10 nights accommodation
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: d326090e-9d51-46cf-b5f6-14dc741d8960
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Business class flights
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: afb09565-d33f-450d-8a2d-3ecfbb47738c
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: All meals included.
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: dd697b7c-1d6a-4c14-829c-11e558fcce7e
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Private guided tours
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 267d58bc-9b06-400a-8d52-d525f2a58716
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Spa and wellness access
+              _overridability:
+                parameters:
+                  text: 'yes'
+        parameters:
+          price:
+            type: text
+            locales:
+              en-US: $2,499
+          period:
+            type: text
+            locales:
+              en-US: /person
+          featured:
+            type: checkbox
+            value: 'true'
+          planName:
+            type: text
+            locales:
+              en-US: Premium
+          buttonText:
+            type: text
+            locales:
+              en-US: Book Premium
+          description:
+            type: text
+            locales:
+              en-US: Most popular choice for comfort seekers.
+        _overridability:
+          parameters:
+            price: 'yes'
+            period: 'yes'
+            featured: 'yes'
+            planName: 'yes'
+            buttonText: 'yes'
+            description: 'yes'
+      - _id: 0c757a1b-3a82-489e-95f9-cd9141f1aeaf
+        type: pricingPlan
+        slots:
+          features:
+            - _id: 84614626-c0e0-4ced-accd-b02e70c64cc9
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: 14 nights luxury accommodation
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: bf8b636a-950f-4064-aa74-118bac44b055
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: First class flights.
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 8c7b03fa-0aad-4484-ad38-153ee41ae9ad
+              type: pricingFeature
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Personal concierge & dedicated travel manager
+              _overridability:
+                parameters:
+                  text: 'yes'
+        parameters:
+          price:
+            type: text
+            locales:
+              en-US: $4,999
+          period:
+            type: text
+            locales:
+              en-US: /person
+          planName:
+            type: text
+            locales:
+              en-US: Luxury
+          buttonText:
+            type: text
+            locales:
+              en-US: Book Luxury
+          description:
+            type: text
+            locales:
+              en-US: Ultimate luxury experience for discerning travelers.
+        _overridability:
+          parameters:
+            price: 'yes'
+            period: 'yes'
+            planName: 'yes'
+            buttonText: 'yes'
+            description: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T21:17:31.095131+00:00'
+modified: '2025-12-11T21:18:57.528971+00:00'
+pattern: true

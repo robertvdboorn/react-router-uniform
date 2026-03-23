@@ -1,0 +1,552 @@
+created: '2025-12-12T14:13:25.143397+00:00'
+modified: '2025-12-12T14:59:22.253796+00:00'
+pattern: false
+entry:
+  _id: 824061d8-9da6-4862-abd1-8251376ed59b
+  _name: Luxury Maldives Escape
+  _slug: luxury-maldives-escape
+  type: travelPackage
+  fields:
+    price:
+      type: number
+      value: 4999
+    duration:
+      type: text
+      value: 7 Days / 6 Nights
+    featured:
+      type: checkbox
+      value: 'true'
+    exclusions:
+      type: text
+      locales:
+        en-US: Travel Insurance, Personal Expenses, Optional Premium Experiences
+    inclusions:
+      type: text
+      locales:
+        en-US: >-
+          Roundtrip Flights, Overwater Villa, All Meals & Drinks, Spa
+          Treatments, Water Sports, Excursions
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Luxury Maldives Escape: 7-Day All-Inclusive Overwater
+                      Villa Experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Indulge in the ultimate romantic getaway with our
+                      exclusive 7-day luxury Maldives package, designed for
+                      couples seeking world-class service, breathtaking beauty,
+                      and unforgettable memories. Your journey begins the moment
+                      you arrive, as you are whisked away to your private
+                      overwater villa—an oasis of elegance perched above the
+                      turquoise lagoon, offering panoramic ocean views and
+                      direct access to the crystal-clear waters below.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Package Highlights
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'All-Inclusive Overwater Villa Stay:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Relax in a spacious, elegantly appointed villa with a private deck, infinity plunge pool, and 24/7 personalized butler service to cater to your every desire.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Couples Spa Treatments:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Rejuvenate together with daily spa rituals, including soothing massages and holistic therapies in a serene, overwater spa suite.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sunset Dolphin Cruise:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Set sail on a private yacht as the sun dips below the horizon, sipping champagne while playful dolphins dance in the golden light.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Private Island Picnic:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Escape to a secluded sandbank for a gourmet picnic, surrounded by nothing but the gentle waves and each other.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Snorkeling with Marine Biologists:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Discover vibrant coral gardens and exotic marine life on a guided snorkeling adventure, learning about the Maldives’ unique ecosystem from expert biologists.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Fine Dining at Underwater Restaurant:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Savor a multi-course tasting menu in an awe-inspiring underwater setting, where panoramic glass walls reveal a mesmerizing world of tropical fish and graceful rays.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sunrise Yoga Sessions:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Greet each day with guided yoga on the beach, as the first rays of sunlight illuminate the tranquil lagoon.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Unlimited Water Sports:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Enjoy complimentary access to kayaking, paddleboarding, windsurfing, and jet skiing, with expert instructors on hand for every skill level.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 9
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Professional Photography Session:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Capture your most cherished moments with a private photoshoot set against the Maldives’ iconic backdrops—perfect for honeymooners and couples celebrating love.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Itinerary Overview
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ol
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 1:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Arrival, welcome champagne, villa check-in, sunset yoga, romantic dinner on your private deck.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 2:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Couples spa treatment, snorkeling excursion, gourmet lunch, sunset dolphin cruise.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 3:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Private island picnic, water sports adventure, underwater restaurant dinner.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 4:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Sunrise yoga, marine biologist snorkeling tour, couples massage, stargazing experience.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 5:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Leisure day with unlimited water sports, professional photography session, beach barbecue dinner.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 6:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Spa rituals, local island cultural tour (optional), sunset cruise, candlelit dinner.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 7:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Farewell breakfast, final swim or yoga session, private transfer to airport.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Choose This Package?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This luxury Maldives escape is meticulously crafted for
+                      romance, privacy, and adventure. From the attentive butler
+                      service to the curated experiences—each moment is designed
+                      to celebrate your love in paradise. Whether you’re marking
+                      a honeymoon, anniversary, or simply seeking a dream
+                      escape, this package promises memories that will last a
+                      lifetime.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Book now
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and let the Maldives’ enchanting beauty and world-class hospitality create your perfect romantic story.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-824061d8-9da6-4862-abd1-8251376ed59b-destination/entries/0}
+    packageName:
+      type: text
+      value: Luxury Maldives Escape
+    packageType:
+      type: select
+      value: luxury
+    maxGroupSize:
+      type: number
+      value: 2
+    originalPrice:
+      type: number
+      value: 6499
+    difficultyLevel:
+      type: select
+      value: easy
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience ultimate luxury with overwater villas, private spa
+          treatments, gourmet dining, and access to pristine coral reefs.
+  _dataResources:
+    ref-824061d8-9da6-4862-abd1-8251376ed59b-destination:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f09bd90a-7e81-4cfc-a7c1-cc54d15864cb
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

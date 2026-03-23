@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: pricingComparison
+name: Pricing Comparison
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main section heading
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Section description
+    localizable: true
+description: Luxury pricing table for comparing travel packages side-by-side
+useTeamPermissions: true
+slots:
+  - id: plans
+    name: Plans
+    maxComponents: 3
+    minComponents: 1
+    allowedComponents:
+      - pricingPlan
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-11T21:15:35.041441+00:00'
+updated: '2025-12-11T21:15:35.041441+00:00'

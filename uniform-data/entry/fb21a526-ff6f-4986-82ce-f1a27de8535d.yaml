@@ -1,0 +1,514 @@
+created: '2025-12-12T14:13:28.666046+00:00'
+modified: '2025-12-12T14:13:28.666046+00:00'
+pattern: false
+entry:
+  _id: fb21a526-ff6f-4986-82ce-f1a27de8535d
+  _name: Swiss Alps Adventure
+  _slug: swiss-alps-adventure
+  type: travelPackage
+  fields:
+    price:
+      type: number
+      value: 3799
+    duration:
+      type: text
+      value: 10 Days / 9 Nights
+    featured:
+      type: checkbox
+      value: 'true'
+    exclusions:
+      type: text
+      locales:
+        en-US: >-
+          International flights, travel insurance, personal climbing gear, and
+          drinks are not included in the package.
+    inclusions:
+      type: text
+      locales:
+        en-US: >-
+          Mountain Lodge Accommodation, All Meals, Professional Guides,
+          Equipment, Swiss Travel Pass, Airport Transfers
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Swiss Alps Adventure Package: 10-Day Ultimate Alpine
+                      Experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Embark on the adventure of a lifetime with our exclusive
+                      10-day Swiss Alps Adventure Package, meticulously crafted
+                      for thrill-seekers and outdoor enthusiasts eager to push
+                      their limits amidst breathtaking alpine scenery. This
+                      action-packed itinerary combines heart-pounding
+                      activities, expert guidance, and luxurious comfort,
+                      ensuring an unforgettable journey through Switzerland’s
+                      most iconic landscapes.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Itinerary Highlights
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Guided Matterhorn Base Camp Trek:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Begin your adventure with a multi-day trek to the legendary Matterhorn base camp, led by seasoned mountain guides. Traverse dramatic ridgelines, alpine meadows, and glacial valleys as you soak in panoramic views of the Swiss Alps.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Glacier Hiking:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Strap on your crampons and explore ancient glaciers under the supervision of expert guides. Learn essential glacier travel techniques and witness the raw beauty of ice formations up close.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Paragliding Over Alpine Valleys:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Experience the ultimate adrenaline rush as you soar above emerald valleys and snow-capped peaks, enjoying a bird’s-eye view of Switzerland’s stunning landscapes with certified paragliding instructors.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Via Ferrata Climbing:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Conquer vertical rock faces and traverse thrilling cliffside routes on Switzerland’s renowned via ferrata courses. All safety equipment and professional instruction are provided for a safe and exhilarating climb.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Mountain Biking Trails:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Ride world-class mountain biking trails that wind through forests, pastures, and high-altitude passes. Suitable for all skill levels, with top-quality bikes and gear included.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Luxury Mountain Lodges:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' After each day’s adventure, unwind in handpicked luxury lodges featuring cozy alpine décor, spa facilities, and breathtaking mountain vistas.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Swiss Fondue Evenings:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Savor authentic Swiss cuisine with traditional fondue nights, complemented by local wines and warm hospitality.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Scenic Train Journeys:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Travel in style aboard Switzerland’s iconic panoramic trains, gliding past glaciers, lakes, and picturesque villages en route to your next adventure.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 9
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Professional Climbing Instruction:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Whether you’re a beginner or seasoned climber, benefit from personalized coaching and safety briefings from certified alpine instructors.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 10
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'All Safety Equipment Provided:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Rest assured with top-of-the-line safety gear for all activities, ensuring your comfort and security throughout the journey.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Who Is This For?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This package is perfect for adventure seekers, outdoor
+                      lovers, and anyone ready to challenge themselves in one of
+                      the world’s most spectacular mountain playgrounds. Whether
+                      you’re traveling solo, as a couple, or with friends,
+                      you’ll forge unforgettable memories and friendships along
+                      the way.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Inclusions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 10 nights in luxury mountain lodges
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: All guided activities and excursions
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Professional guides and instructors
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: All safety equipment and technical gear
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Daily breakfast, select lunches, and Swiss fondue
+                          dinners
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Scenic train transfers between destinations
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 24/7 on-ground support
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ready to push your limits and experience the Swiss Alps
+                      like never before? Join us for the ultimate alpine
+                      adventure!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    packageName:
+      type: text
+      value: Swiss Alps Adventure
+    packageType:
+      type: select
+      value: adventure
+    maxGroupSize:
+      type: number
+      value: 12
+    originalPrice:
+      type: number
+      value: 4599
+    difficultyLevel:
+      type: select
+      value: challenging
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Conquer alpine peaks with guided mountain climbing, glacier hiking,
+          paragliding, and luxury mountain lodge stays.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

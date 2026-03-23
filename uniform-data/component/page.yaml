@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: page
+name: Page
+icon: screen
+parameters: []
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - hero
+      - searchHero
+      - contentSection
+      - textBlock
+      - callToAction
+      - featureGrid
+      - featureCard
+      - imageSection
+      - buttonLink
+      - testimonial
+      - statsSection
+      - newsletter
+      - destinationCard
+      - travelPackageCard
+      - pricingCard
+      - navigation
+      - footer
+      - carousel
+      - faqSection
+      - trustBadges
+      - dealBanner
+      - $p:f571dde9-437b-4a48-ad69-97b253d6a815
+      - $p:fbc917ba-1471-46d9-8c10-138476d7cf4e
+      - $p:a3c0d11e-0169-4358-bf81-b3b73771f410
+      - $p:8dd59097-dac4-4586-82bc-55f4e8752947
+      - $personalization
+      - $test
+      - videoHero
+      - imageGallery
+      - pricingComparison
+      - socialProofBanner
+      - blogPostCard
+      - $p:fa4455c5-f8c6-4d80-900a-ccea4f78d963
+      - $p:38236416-fc60-4f02-a461-821c94602982
+      - $p:7d80c4c2-528d-4b96-91b9-496381a4f4ff
+      - itinerary
+      - tabs
+      - breadcrumbs
+      - $p:ea7f694b-3409-41da-be08-a4861a392eac
+      - $p:7562e400-d3e3-44f7-bf81-ea3e6ab72033
+      - $p:5e8207c8-9e44-4696-9292-01ad1ae34387
+      - imageHero
+      - simpleCard
+      - simpleBanner
+      - $p:8e4f1c72-05d4-4149-be5e-bbd9f809c8ba
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+canBeComposition: true
+created: '2025-12-10T14:09:55.87135+00:00'
+updated: '2025-12-19T11:12:47.699039+00:00'

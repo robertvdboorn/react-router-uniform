@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: faqItem
+name: FAQ Item
+icon: screen
+parameters:
+  - id: question
+    name: Question
+    type: text
+    guidance: The question customers ask
+    localizable: true
+  - id: answer
+    name: Answer
+    type: text
+    guidance: Clear, helpful answer (1-3 sentences)
+    localizable: true
+description: Individual FAQ question and answer
+useTeamPermissions: true
+slots: []
+titleParameter: question
+canBeComposition: false
+created: '2025-12-10T23:41:44.768484+00:00'
+updated: '2025-12-10T23:41:44.768484+00:00'

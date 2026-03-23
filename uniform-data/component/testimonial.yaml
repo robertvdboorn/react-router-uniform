@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: testimonial
+name: Testimonial
+icon: screen
+parameters:
+  - id: quote
+    name: Quote
+    type: text
+    guidance: The testimonial quote - what the person said
+    typeConfig:
+      required: false
+    localizable: true
+  - id: author
+    name: Author
+    type: text
+    guidance: Name of the person giving the testimonial
+    typeConfig:
+      required: false
+    localizable: true
+  - id: role
+    name: Role
+    type: text
+    guidance: Author's job title or role (e.g., 'CEO at Company')
+    typeConfig:
+      required: false
+    localizable: true
+  - id: avatarUrl
+    name: Avatar URL
+    type: text
+    guidance: URL to author's avatar/photo
+    typeConfig:
+      required: false
+description: A testimonial card with quote and author information
+useTeamPermissions: true
+slots: []
+titleParameter: quote
+canBeComposition: false
+created: '2025-12-10T14:15:23.370534+00:00'
+updated: '2025-12-10T14:15:23.370534+00:00'

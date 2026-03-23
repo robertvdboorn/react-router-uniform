@@ -1,0 +1,288 @@
+composition:
+  _name: Homepage
+  _id: 49360fea-c1c7-4a76-b82d-2410f3135569
+  type: page
+  slots:
+    content:
+      - _id: 631b1c00-1d17-478c-84c6-1323e0439b73
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: a70c23ea-440b-40f2-a17f-bf6115b52303
+        type: $personalization
+        slots:
+          pz:
+            - _id: da996c2c-903c-49d6-b9b5-75f6c3c31a0f
+              type: hero
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Demo Content for utm_campaign=demo
+                title:
+                  type: text
+                  value: Campaign Triggered
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: utmCampaign
+                        r: 0
+                        op: '>'
+                    name: hero-utm
+                subtitle:
+                  type: text
+                  value: >-
+                    This is demo content shown because you arrived via the demo
+                    UTM campaign.
+            - _id: cff7d867-d6b0-4098-bd0a-0e1ad898e911
+              type: hero
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Exclusive Travel Experiences
+                title:
+                  type: text
+                  value: Discover Top Travel Destinations
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: '1_2'
+                        r: 0
+                        op: ^
+                    name: hero-destinations
+                subtitle:
+                  type: text
+                  value: >-
+                    From tropical beaches to mountain peaks, explore 250+
+                    handpicked destinations around the globe. Your journey
+                    begins today.
+            - _id: c0b360e1-b521-453b-9d37-65bdd8bd8cd2
+              type: hero
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Exclusive Travel Experiences
+                title:
+                  type: text
+                  value: Explore Exclusive Travel Packages Today
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: '1_1'
+                        r: 0
+                        op: ^
+                    name: hero-packages
+                subtitle:
+                  type: text
+                  value: >-
+                    From tropical beaches to mountain peaks, explore 250+
+                    handpicked destinations around the globe. Your journey
+                    begins today.
+            - _id: 1fc679f9-3a98-4a3f-acad-a6e6f1606bd4
+              type: hero
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Tailored Travel Experiences for Norway
+                title:
+                  type: text
+                  value: Explore Norway's Breathtaking Adventures
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: vc-country
+                        r: 'NO'
+                        t: q
+                        op: '='
+                    name: hero-norway
+                subtitle:
+                  type: text
+                  value: >-
+                    Explore handpicked destinations and experiences tailored for
+                    travelers from Norway. Start your next adventure with us
+                    today.
+            - _id: fd653fd0-af78-4f7c-bf0c-ad1252032cde
+              type: hero
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: |
+                      Exclusive Travel Experiences
+                title:
+                  type: text
+                  value: Discover Your Next Adventure
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit: []
+                    name: hero-default
+                subtitle:
+                  type: text
+                  value: >-
+                    From tropical beaches to mountain peaks, explore 250+
+                    handpicked destinations around the globe. Your journey
+                    begins today.
+        parameters:
+          trackingEventName:
+            type: text
+            value: Homepage
+      - _id: 5bc8848e-bd0d-4783-90e1-f54e52bdacfc
+        type: pricingComparison
+        _pattern: 7d80c4c2-528d-4b96-91b9-496381a4f4ff
+      - _id: 9f48ab1a-5544-42c1-ab9b-fcf4c7bcc60a
+        type: statsSection
+        slots:
+          stats:
+            - _id: a83ab22d-e06d-4631-82ab-6b80b577aebc
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: globe
+                label:
+                  type: text
+                  locales:
+                    en-US: Destinations
+                number:
+                  type: text
+                  value: 250+
+            - _id: d35969c0-5f7c-4242-89e6-52a014f38920
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: users
+                label:
+                  type: text
+                  locales:
+                    en-US: Happy Travelers
+                number:
+                  type: text
+                  value: 50K+
+            - _id: 9fd177d0-8c4c-45bc-b6d2-5f42f34af058
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: star
+                label:
+                  type: text
+                  locales:
+                    en-US: Average Rating
+                number:
+                  type: text
+                  value: '4.9'
+            - _id: 637f7b33-994e-4e84-b0d9-98f57c15cd88
+              type: statItem
+              parameters:
+                icon:
+                  type: select
+                  value: trophy
+                label:
+                  type: text
+                  locales:
+                    en-US: Years Experience
+                number:
+                  type: text
+                  value: 15+
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Trusted Worldwide
+          subtitle:
+            type: text
+            locales:
+              en-US: Join thousands of happy travelers exploring the world with us
+      - _id: ec04bccc-2da6-443f-8895-75b1eb9962f3
+        type: carousel
+        _pattern: fbc917ba-1471-46d9-8c10-138476d7cf4e
+      - _id: e6066f95-c8b4-4c54-81b8-7875300dea0e
+        type: callToAction
+        slots:
+          buttons:
+            - _id: 8d8ffaff-5445-4500-9c7e-27df04ba77d6
+              type: buttonLink
+              parameters:
+                size:
+                  type: select
+                  value: large
+                text:
+                  type: text
+                  locales:
+                    en-US: Browse Destinations
+                variant:
+                  type: select
+                  value: cta-primary
+            - _id: 151249d6-b5c1-4247-aeca-46451802a5d2
+              type: buttonLink
+              parameters:
+                size:
+                  type: select
+                  value: large
+                text:
+                  type: text
+                  locales:
+                    en-US: Talk to Expert
+                variant:
+                  type: select
+                  value: cta-secondary
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: Limited Time Offer
+          title:
+            type: text
+            value: Ready for Your Dream Vacation?
+          description:
+            type: text
+            value: >-
+              Start planning your perfect getaway today. Browse hundreds of
+              destinations, compare packages, and book with confidence. Our
+              travel experts are ready to help make your dream vacation a
+              reality.
+      - _id: c4bc292e-b03d-4242-9e18-7550edc62960
+        type: faqSection
+        _pattern: 8dd59097-dac4-4586-82bc-55f4e8752947
+      - _id: f26b91a5-cf31-4a51-a969-d16ee44ff3b7
+        type: newsletter
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Get Travel Inspiration
+          buttonText:
+            type: text
+            locales:
+              en-US: Subscribe
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Subscribe to receive exclusive travel deals, destination guides,
+                and insider tips delivered to your inbox weekly.
+      - _id: c94b4e7b-59f0-49ee-9ae3-858bb9ee2e32
+        type: footer
+        _pattern: a3c0d11e-0169-4358-bf81-b3b73771f410
+  _overrides:
+    c94b4e7b-59f0-49ee-9ae3-858bb9ee2e32:
+      parameters:
+        copyrightText:
+          type: text
+          locales:
+            en-US: © 2025 Voyager. All rights reserved.
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-10T14:17:55.262476+00:00'
+modified: '2026-03-23T17:38:20.516473+00:00'
+pattern: false

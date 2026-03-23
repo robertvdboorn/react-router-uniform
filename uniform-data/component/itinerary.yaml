@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: itinerary
+name: Itinerary
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Itinerary section title (e.g., 'Your 7-Day Adventure')
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Optional subtitle describing the itinerary
+    localizable: true
+description: Day-by-day travel itinerary with timeline visualization
+useTeamPermissions: true
+slots:
+  - id: days
+    name: Days
+    maxComponents: 20
+    minComponents: 1
+    allowedComponents:
+      - itineraryDay
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-12T14:46:57.267623+00:00'
+updated: '2025-12-12T14:46:57.267623+00:00'

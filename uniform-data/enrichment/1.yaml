@@ -1,0 +1,8 @@
+id: '1'
+name: Content Interest
+cap: 100
+values:
+  - id: '2'
+    value: Destinations
+  - id: '1'
+    value: Packages

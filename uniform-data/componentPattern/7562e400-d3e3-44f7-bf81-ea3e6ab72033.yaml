@@ -1,0 +1,57 @@
+composition:
+  _name: Destination Detail Tabs
+  _id: 7562e400-d3e3-44f7-bf81-ea3e6ab72033
+  type: tabs
+  slots:
+    panels:
+      - _id: f538e61e-1cc0-44e7-a62b-0c78c3ef9f25
+        type: tabPanel
+        slots:
+          content:
+            - _id: 53e137fc-b1a4-40f0-a20e-cb4a4cc5b091
+              type: textBlock
+        parameters:
+          tabLabel:
+            type: text
+            locales:
+              en-US: Overview
+        _overridability:
+          parameters:
+            tabLabel: 'yes'
+      - _id: 24a434d7-4852-496f-8f19-1d7183b974b3
+        type: tabPanel
+        slots:
+          content:
+            - _id: fd2693fb-4491-42c9-bf7f-6817e8d8ba6d
+              type: featureGrid
+        parameters:
+          tabLabel:
+            type: text
+            locales:
+              en-US: Things to Do
+        _overridability:
+          parameters:
+            tabLabel: 'yes'
+      - _id: bba13566-8d40-4a3c-b0a8-12a11af6e202
+        type: tabPanel
+        slots:
+          content:
+            - _id: 2780125a-68e5-43f4-804b-d3fd21ef422f
+              type: textBlock
+        parameters:
+          tabLabel:
+            type: text
+            locales:
+              en-US: When to Go
+        _overridability:
+          parameters:
+            tabLabel: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:55:33.363674+00:00'
+modified: '2025-12-12T14:55:46.299346+00:00'
+pattern: true

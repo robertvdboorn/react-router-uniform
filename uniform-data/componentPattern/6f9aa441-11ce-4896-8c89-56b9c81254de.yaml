@@ -1,0 +1,28 @@
+composition:
+  _name: 'FAQ: Travel Insurance'
+  _id: 6f9aa441-11ce-4896-8c89-56b9c81254de
+  type: faqItem
+  parameters:
+    answer:
+      type: text
+      locales:
+        en-US: >-
+          Comprehensive travel insurance is strongly recommended for all trips,
+          as it covers unexpected events such as medical emergencies, trip
+          cancellations, lost luggage, and travel delays. We work with top
+          insurance providers to offer competitive rates tailored to your travel
+          needs.
+    question:
+      type: text
+      locales:
+        en-US: Do I need travel insurance?
+  _overridability:
+    parameters:
+      answer: 'yes'
+      question: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:57:52.423524+00:00'
+modified: '2025-12-12T14:57:52.423524+00:00'
+pattern: true

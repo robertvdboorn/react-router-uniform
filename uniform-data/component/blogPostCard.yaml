@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: blogPostCard
+name: Blog Post Card
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: 'Blog post hero image (recommended: 600x400px)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: title
+    name: Title
+    type: text
+    guidance: Blog post title
+    localizable: true
+  - id: excerpt
+    name: Excerpt
+    type: text
+    guidance: Brief preview of the article (2-3 sentences)
+    localizable: true
+  - id: category
+    name: Category
+    type: text
+    guidance: Article category (e.g., 'Travel Tips', 'Destinations')
+    localizable: true
+  - id: date
+    name: Date
+    type: text
+    guidance: Publication date (e.g., 'Jan 15, 2024')
+  - id: readTime
+    name: Read Time
+    type: text
+    guidance: Reading time (e.g., '5 min read')
+description: Luxury blog/article card for travel stories and guides
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-11T21:15:36.086873+00:00'
+updated: '2025-12-11T21:15:36.086873+00:00'

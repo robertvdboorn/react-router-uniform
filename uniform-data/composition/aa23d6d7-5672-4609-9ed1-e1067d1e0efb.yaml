@@ -1,0 +1,154 @@
+composition:
+  _name: Next
+  _id: aa23d6d7-5672-4609-9ed1-e1067d1e0efb
+  _slug: other-page
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: '2'
+          key: '1'
+          str: 1
+  slots:
+    content:
+      - _id: f9599193-6232-4e7d-9856-fb5b505fa003
+        type: navigation
+        _pattern: f571dde9-437b-4a48-ad69-97b253d6a815
+      - _id: 03c7b8fe-16cc-488d-8698-36863dccc1e0
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Explore Paradise Awaits
+          subtitle:
+            type: text
+            locales:
+              en-US: >-
+                From pristine beaches to mountain peaks, discover breathtaking
+                destinations around the globe. Your adventure starts today.
+      - _id: 34831ab5-1d98-4311-a4c8-8b8d980430d1
+        type: featureGrid
+        slots:
+          features:
+            - _id: f01751de-0be5-4248-aa91-faba76b6740b
+              type: featureCard
+              parameters:
+                icon:
+                  type: select
+                  value: map
+                title:
+                  type: text
+                  locales:
+                    en-US: Handpicked Destinations
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Explore hidden tropical islands, ancient cities, and
+                      stunning natural wonders. Every destination is carefully
+                      selected to ensure unforgettable experiences.
+            - _id: c69808a9-63a7-4b3a-a410-f616062e222e
+              type: featureCard
+              parameters:
+                icon:
+                  type: select
+                  value: camera
+                title:
+                  type: text
+                  locales:
+                    en-US: Local Adventures
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Experience destinations through the eyes of locals.
+                      Authentic tours, secret spots, and cultural experiences
+                      you'll never forget.
+            - _id: bf090d80-c480-4418-a145-f3830e1604f3
+              type: featureCard
+              parameters:
+                icon:
+                  type: select
+                  value: heart
+                title:
+                  type: text
+                  locales:
+                    en-US: Travel Your Way
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Enjoy flexible bookings with easy changes and hassle-free
+                      cancellations. Whether you want to travel spontaneously or
+                      plan ahead, the choice is yours.
+      - _id: e263fce2-72d9-4fb0-8612-f3ef1b4c8457
+        type: testimonial
+        parameters:
+          role:
+            type: text
+            locales:
+              en-US: Bali, Indonesia • October 2024
+          quote:
+            type: text
+            locales:
+              en-US: >-
+                Swimming with sea turtles at sunrise, hiking through bamboo
+                forests, and dining with a local family - this wasn't just a
+                trip, it was life-changing. Best vacation ever!
+          author:
+            type: text
+            locales:
+              en-US: Maria Santos
+      - _id: 2d846a56-a6f1-4389-a9d6-e41a2b04c1fd
+        type: callToAction
+        slots:
+          buttons:
+            - _id: 42382b79-9de4-4100-8b25-fdf7f8b6dabb
+              type: buttonLink
+              parameters:
+                size:
+                  type: select
+                  value: large
+                text:
+                  type: text
+                  locales:
+                    en-US: Browse Destinations
+                variant:
+                  type: select
+                  value: cta-primary
+            - _id: 7b4519f8-1295-4bd8-845e-f3ef1e7eb416
+              type: buttonLink
+              parameters:
+                size:
+                  type: select
+                  value: large
+                text:
+                  type: text
+                  locales:
+                    en-US: Contact Travel Expert
+                variant:
+                  type: select
+                  value: cta-secondary
+        parameters:
+          badge:
+            type: text
+            locales:
+              en-US: Travel Guide
+          title:
+            type: text
+            locales:
+              en-US: Where Will You Go Next?
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Thousands of travelers have discovered their dream destinations
+                with us. Browse inspiring locations and start planning your
+                perfect escape.
+  _locales:
+    - en-US
+created: '2025-12-10T14:56:25.103741+00:00'
+modified: '2025-12-19T11:33:31.512694+00:00'
+pattern: false

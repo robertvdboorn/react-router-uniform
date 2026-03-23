@@ -1,0 +1,9 @@
+id: 1dea5bb5-728f-4a07-b0a6-d0c44922f38a
+name: Travel Packages
+order: 500
+path: /travel-packages
+type: composition
+pathSegment: travel-packages
+data: {}
+compositionId: a7bb3c3d-d943-4018-84fd-9b728a3ab8a8
+projectMapId: 3f925976-5898-4817-bbb0-4fb7e130a617

@@ -1,0 +1,568 @@
+created: '2025-12-12T14:11:22.44388+00:00'
+modified: '2025-12-12T14:11:22.44388+00:00'
+pattern: false
+entry:
+  _id: 54714dc5-53e9-4e8e-81b8-d590db20ac77
+  _name: Swiss Alps
+  _slug: swiss-alps
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Swiss Alps
+    rating:
+      type: number
+      value: 5
+    climate:
+      type: text
+      value: Alpine
+    country:
+      type: text
+      value: Switzerland
+    featured:
+      type: checkbox
+      value: 'true'
+    languages:
+      type: text
+      value: German, French, Italian, English
+    highlights:
+      type: text
+      locales:
+        en-US: >-
+          Matterhorn, Ski Resorts, Glacier Express, Mountain Villages, Alpine
+          Lakes, Chocolate Tours
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swiss Alps: A Majestic Playground for Adventure and
+                      Luxury
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swiss Alps stand as one of the world’s most iconic
+                      mountain destinations, captivating travelers with their
+                      breathtaking beauty, exhilarating activities, and refined
+                      hospitality. Whether you seek adrenaline-pumping
+                      adventures or serene luxury, the Swiss Alps offer an
+                      unforgettable experience year-round.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: World-Renowned Ski Resorts
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Home to legendary ski resorts such as '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Zermatt
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ', '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: St. Moritz
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ', and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Verbier
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , the Swiss Alps are a winter sports paradise. Zermatt,
+                      nestled at the foot of the iconic 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Matterhorn
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' peak, offers pristine slopes and a charming car-free village. St. Moritz, the birthplace of winter tourism, dazzles with its glamorous atmosphere, world-class skiing, and annual polo on ice. Verbier attracts thrill-seekers with its extensive off-piste terrain and vibrant après-ski scene.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The Iconic Matterhorn
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Matterhorn
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' is perhaps the most recognizable mountain in the world, its pyramid-shaped summit rising dramatically above the surrounding landscape. Whether viewed from a distance or experienced up close via cable car, the Matterhorn is a must-see for every visitor.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Scenic Train Journeys
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Experience the Alps in comfort and style aboard the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Glacier Express
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , known as the “slowest express train in the world.” This
+                      legendary route connects Zermatt and St. Moritz, winding
+                      through deep valleys, over soaring bridges, and past
+                      snow-capped peaks, offering panoramic views from its
+                      glass-domed carriages.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Charming Chalets and Mountain Villages
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Traditional '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Swiss chalets
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' dot the alpine landscape, their wooden facades and flower-filled balconies exuding rustic charm. Picturesque villages like Grindelwald, Wengen, and Mürren invite you to step back in time, savoring the tranquility and authenticity of mountain life.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Year-Round Outdoor Adventures
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In summer, the Alps transform into a hiker’s paradise,
+                      with hundreds of miles of trails leading through
+                      wildflower meadows, dense forests, and up to panoramic
+                      viewpoints. In winter, the region becomes a snowy
+                      wonderland for skiing, snowboarding, snowshoeing, and
+                      tobogganing. Pristine 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: alpine lakes
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' such as Lake Oeschinen and Lake Blausee offer crystal-clear waters perfect for swimming, boating, or simply relaxing by the shore.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Swiss Chocolate, Cheese, and Culinary Delights
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'No visit is complete without indulging in '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: Swiss chocolate
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: cheese
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      . Tour local chocolatiers, sample creamy fondue in a cozy
+                      chalet, or visit a mountain dairy to watch traditional
+                      cheese-making in action. The region’s gastronomy is a
+                      delicious blend of hearty alpine fare and refined Swiss
+                      cuisine.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Luxury Hotels, Spas, and Swiss Hospitality
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The Swiss Alps are renowned for their '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: luxury mountain hotels
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' and world-class spas, where you can unwind with a massage or soak in a heated pool overlooking the peaks. Swiss hospitality is legendary for its precision, warmth, and attention to detail, ensuring every guest feels pampered and welcome.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Breathtaking Cable Car Rides
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Soar above the valleys on a '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: cable car
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' ride, such as the Gornergrat Bahn or the Titlis Rotair, for sweeping views of glaciers, mountains, and villages far below. These rides are an adventure in themselves, offering access to high-altitude hiking, skiing, and sightseeing.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Perfect for Adventure and Luxury Seekers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'With its invigorating '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: alpine climate
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      , the Swiss Alps are ideal for both outdoor enthusiasts
+                      and those seeking relaxation. Whether you’re carving fresh
+                      powder, hiking to hidden lakes, savoring gourmet cuisine,
+                      or simply soaking in the mountain air, the Swiss Alps
+                      promise a perfect blend of adventure, luxury, and natural
+                      beauty.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    reviewCount:
+      type: number
+      value: 1654
+    startingPrice:
+      type: number
+      value: 2199
+    bestTimeToVisit:
+      type: text
+      value: December - March (Winter), June - September (Summer)
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience breathtaking alpine scenery with snow-capped peaks,
+          picturesque mountain villages, world-class skiing, and awe-inspiring
+          glacial landscapes.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

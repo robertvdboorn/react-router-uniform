@@ -1,0 +1,8 @@
+id: '2'
+name: My new category
+cap: 100
+values:
+  - id: '1'
+    value: Example 1
+  - id: '2'
+    value: Example 2

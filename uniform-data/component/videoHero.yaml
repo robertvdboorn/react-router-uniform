@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: videoHero
+name: Video Hero
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main hero title - keep it impactful
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting text below title
+    localizable: true
+  - id: videoUrl
+    name: Video URL
+    type: text
+    guidance: MP4 video URL (e.g., https://example.com/video.mp4)
+  - id: overlayOpacity
+    name: Overlay Opacity
+    type: number
+    guidance: Dark overlay opacity (0-100, default 40)
+    typeConfig:
+      max: 100
+      min: 0
+description: Luxury hero section with full-width background video and elegant overlays
+useTeamPermissions: true
+slots:
+  - id: buttons
+    name: Buttons
+    maxComponents: 2
+    allowedComponents:
+      - buttonLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-11T21:15:34.634139+00:00'
+updated: '2025-12-11T21:15:34.634139+00:00'

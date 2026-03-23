@@ -1,0 +1,453 @@
+created: '2025-12-12T14:14:24.15811+00:00'
+modified: '2025-12-12T14:14:24.15811+00:00'
+pattern: false
+entry:
+  _id: 1b29fcb0-0954-4aae-911e-4b1b661eab5d
+  _name: Iceland Northern Lights Adventure
+  _slug: iceland-northern-lights-adventure
+  type: travelPackage
+  fields:
+    price:
+      type: number
+      value: 3599
+    duration:
+      type: text
+      value: 9 Days / 8 Nights
+    featured:
+      type: checkbox
+      value: 'true'
+    exclusions:
+      type: text
+      locales:
+        en-US: >-
+          International flights, travel insurance, some meals, and optional
+          activities are not included in the package.
+    inclusions:
+      type: text
+      locales:
+        en-US: >-
+          Accommodation, Most Meals, Northern Lights Tours, Ice Cave
+          Exploration, All Excursions, 4x4 Transportation, Winter Gear
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      9-Day Iceland Winter Adventure: Northern Lights, Glaciers
+                      & More
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Embark on the ultimate Icelandic winter expedition
+                      designed for nature photographers and adventure seekers
+                      alike. This 9-day journey immerses you in the raw beauty
+                      of Iceland’s most iconic landscapes, with every detail
+                      curated for an unforgettable experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Itinerary Highlights
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Professional Northern Lights Hunting:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Join expert guides on dedicated Aurora Borealis tours, maximizing your chances to witness and photograph the magical Northern Lights in remote, dark-sky locations.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Ice Cave Exploration:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Venture deep into the heart of Vatnajökull glacier, Europe’s largest ice cap, exploring mesmerizing blue ice caves with certified glacier guides ensuring your safety and providing fascinating insights.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Glacier Hiking:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Strap on your crampons and hike across the shimmering ice fields of Vatnajökull, surrounded by dramatic crevasses and ice formations—an absolute must for adventure enthusiasts and photographers.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Jökulsárlón Glacier Lagoon:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Marvel at floating icebergs in the surreal Jökulsárlón lagoon, where the interplay of light and ice offers endless photographic opportunities.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Diamond Beach:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Capture the striking contrast of glistening ice chunks scattered across the black sands of Diamond Beach, a dream location for landscape photography.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Golden Circle Wonders:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Experience the classic Golden Circle route, including the erupting Geysir geothermal area, the thundering Gullfoss waterfall, and Thingvellir National Park, a UNESCO World Heritage Site.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Blue Lagoon & Natural Hot Springs:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Unwind in the world-famous Blue Lagoon’s mineral-rich waters and discover hidden natural hot springs for a truly Icelandic relaxation experience.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Reynisfjara Black Sand Beach:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Walk along the dramatic black sands of Reynisfjara, framed by basalt columns and roaring Atlantic waves.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 9
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Seljalandsfoss & Skógafoss Waterfalls:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Visit two of Iceland’s most spectacular waterfalls—walk behind the curtain of Seljalandsfoss and feel the spray of mighty Skógafoss.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Accommodations & Inclusions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Cozy Icelandic Guesthouses & Hotels:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Enjoy warm hospitality and comfortable stays in handpicked accommodations, offering a true taste of Icelandic charm.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Winter Gear Provided:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Stay warm and safe with included winter clothing and glacier equipment, so you can focus on the adventure.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Photography Tips:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Benefit from on-tour photography guidance, helping you capture the best of Iceland’s winter wonders, from the dancing auroras to icy landscapes.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Who Is This For?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This package is perfect for passionate photographers,
+                      outdoor enthusiasts, and anyone eager to experience
+                      Iceland’s wild winter beauty in comfort and safety.
+                      Whether you’re chasing the Northern Lights, exploring ice
+                      caves, or soaking in geothermal pools, every day promises
+                      new adventures and breathtaking sights.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Book your Iceland winter adventure now and create
+                      memories—and photographs—that will last a lifetime!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    packageName:
+      type: text
+      value: Iceland Northern Lights Adventure
+    packageType:
+      type: select
+      value: adventure
+    maxGroupSize:
+      type: number
+      value: 14
+    originalPrice:
+      type: number
+      value: 4399
+    difficultyLevel:
+      type: select
+      value: moderate
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Experience the magic of Iceland as you chase the Northern Lights and
+          explore ice caves, glacier lagoons, geothermal pools, and volcanic
+          landscapes.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

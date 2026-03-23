@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: newsletter
+name: Newsletter
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Newsletter title
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting description
+    localizable: true
+  - id: buttonText
+    name: Button Text
+    type: text
+    guidance: Submit button text
+    localizable: true
+  - id: placeholder
+    name: Placeholder
+    type: text
+    guidance: Input placeholder
+    localizable: true
+description: Email newsletter signup with validation
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T15:31:14.379129+00:00'
+updated: '2025-12-10T15:31:14.379129+00:00'

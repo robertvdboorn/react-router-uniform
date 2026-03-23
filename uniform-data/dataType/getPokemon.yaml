@@ -1,0 +1,17 @@
+id: getPokemon
+displayName: Get Pokemon
+ttl: 86400
+path: /pokemon/${id}
+custom:
+  imagePath: sprites.other.dream_world.front_default
+method: GET
+purgeKey: 0791f018-2f35-42b0-8063-78d00f5608b0
+archetype: singlePokemon
+variables:
+  id:
+    type: number
+    default: '1'
+    helpText: The ID of the Pokémon to fetch
+    displayName: Pokemon ID
+dataSourceId: pokemonApiIntegration
+allowedOnComponents: []

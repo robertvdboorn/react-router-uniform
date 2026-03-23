@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: statsSection
+name: Stats Section
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section title
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting text
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Full-width background image. Works with Unsplash, Cloudinary, or Uniform assets — responsive sizes are generated automatically.
+    typeConfig:
+      required: false
+description: Display impressive statistics with animated background
+useTeamPermissions: true
+slots:
+  - id: stats
+    name: Stats
+    allowedComponents:
+      - statItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-10T15:31:12.388307+00:00'
+updated: '2025-12-10T15:31:12.388307+00:00'

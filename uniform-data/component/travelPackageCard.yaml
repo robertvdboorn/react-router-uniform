@@ -1,0 +1,57 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: travelPackageCard
+name: Travel Package Card
+icon: screen
+parameters:
+  - id: name
+    name: Name
+    type: text
+    guidance: Package or tour name
+    localizable: true
+  - id: location
+    name: Location
+    type: text
+    guidance: Destination or region
+    localizable: true
+  - id: duration
+    name: Duration
+    type: text
+    guidance: Trip duration (e.g., '7 Days, 6 Nights')
+    localizable: true
+  - id: groupSize
+    name: Group Size
+    type: text
+    guidance: Max group size (e.g., 'Up to 12')
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    guidance: Starting price with currency
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: 'Package hero image (recommended: 700x500px)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: badge
+    name: Badge
+    type: text
+    guidance: Optional badge label (e.g., 'Best Seller', 'New')
+    localizable: true
+description: Showcase travel packages with image, details, pricing, and feature list
+useTeamPermissions: true
+slots:
+  - id: features
+    name: Features
+    allowedComponents:
+      - packageFeature
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: name
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-11T20:30:01.982619+00:00'
+updated: '2025-12-11T20:30:01.982619+00:00'

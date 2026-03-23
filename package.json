@@ -1,0 +1,80 @@
+{
+  "name": "react-router-uniform",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Starter for React Router v7 built on Uniform CMS, featuring SSR personalization",
+  "keywords": [
+    "react",
+    "react-router",
+    "uniform",
+    "cms",
+    "headless-cms",
+    "ssr",
+    "personalization",
+    "typescript",
+    "tailwindcss",
+    "starter",
+    "template"
+  ],
+  "author": "react-router-uniform contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertvdboorn/react-router-uniform.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "react-router dev --port 3411",
+    "predev": "npm run uniform:manifest",
+    "build": "react-router build",
+    "prebuild": "npm run uniform:manifest",
+    "start": "PORT=3411 dotenv -e .env -- react-router-serve ./build/server/index.js",
+    "typegen": "react-router typegen",
+    "typecheck": "react-router typegen && tsc",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "uniform:manifest": "uniform context manifest download --output ./app/lib/contextManifest.json",
+    "uniform:publish": "uniform context manifest publish"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@heroicons/react": "^2.2.0",
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@react-router/node": "^7.13.2",
+    "@react-router/serve": "^7.13.2",
+    "@uniformdev/assets": "^20.55.0",
+    "@uniformdev/canvas": "^20.55.0",
+    "@uniformdev/canvas-react": "^20.55.0",
+    "@uniformdev/context": "^20.55.0",
+    "@uniformdev/context-react": "^20.55.0",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.37.0",
+    "@vercel/react-router": "^1.2.6",
+    "cookie": "^1.1.1",
+    "isbot": "^5.1.36",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router": "^7.13.2"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.13.2",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/cookie": "^1.0.0",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "@uniformdev/cli": "^20.55.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "autoprefixer": "^10.4.27",
+    "dotenv-cli": "^11.0.0",
+    "eslint": "^10.1.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}

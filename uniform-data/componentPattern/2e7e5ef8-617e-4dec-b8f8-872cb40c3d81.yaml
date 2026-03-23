@@ -1,0 +1,28 @@
+composition:
+  _name: 'FAQ: Group Size'
+  _id: 2e7e5ef8-617e-4dec-b8f8-872cb40c3d81
+  type: faqItem
+  parameters:
+    answer:
+      type: text
+      locales:
+        en-US: >-
+          Our group tours are limited to 12-16 travelers, allowing for a more
+          intimate and personalized experience with plenty of individual
+          attention from our expert guides. For those seeking exclusivity, we
+          also offer private tours for couples and families, with flexible
+          itineraries tailored to your preferences.
+    question:
+      type: text
+      locales:
+        en-US: What are your typical group sizes?
+  _overridability:
+    parameters:
+      answer: 'yes'
+      question: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-12T14:58:02.611287+00:00'
+modified: '2025-12-12T14:58:02.611287+00:00'
+pattern: true

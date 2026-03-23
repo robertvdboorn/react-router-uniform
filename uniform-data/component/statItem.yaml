@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: statItem
+name: Stat Item
+icon: screen
+parameters:
+  - id: number
+    name: Number
+    type: text
+    guidance: The statistic number
+  - id: label
+    name: Label
+    type: text
+    guidance: Description label
+    localizable: true
+  - id: icon
+    name: Icon
+    type: select
+    guidance: Select an icon to display
+    typeConfig:
+      options:
+        - text: Globe
+          value: globe
+        - text: Map Pin
+          value: map
+        - text: Sparkles
+          value: sparkles
+        - text: Trophy
+          value: trophy
+        - text: Heart
+          value: heart
+        - text: Star
+          value: star
+        - text: Users
+          value: users
+        - text: Shield Check
+          value: shield
+        - text: Bolt
+          value: bolt
+        - text: Sun
+          value: sun
+        - text: Camera
+          value: camera
+        - text: Trending Up
+          value: trending
+      required: false
+description: Individual statistic with number and label
+useTeamPermissions: true
+slots: []
+titleParameter: number
+canBeComposition: false
+created: '2025-12-10T15:31:13.833827+00:00'
+updated: '2025-12-10T23:33:12.882703+00:00'

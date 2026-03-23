@@ -1,0 +1,102 @@
+composition:
+  _name: Travel FAQ Section
+  _id: 8dd59097-dac4-4586-82bc-55f4e8752947
+  type: faqSection
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Frequently Asked Questions
+    subtitle:
+      type: text
+      locales:
+        en-US: Everything you need to know about planning your luxury journey
+  slots:
+    items:
+      - _id: 85f13f30-47fe-4c3d-8205-5644b60cdaba
+        type: faqItem
+        parameters:
+          answer:
+            type: text
+            locales:
+              en-US: >-
+                Our packages include premium accommodations, private transfers,
+                curated experiences, daily breakfast, dedicated concierge
+                service, and comprehensive travel insurance. Each journey is
+                tailored to your preferences for a personalized travel
+                experience.
+          question:
+            type: text
+            locales:
+              en-US: What is included in your luxury travel packages?
+        _overridability:
+          parameters:
+            answer: 'yes'
+            question: 'yes'
+      - _id: 4b812982-f102-4b8d-94bd-badf6007aa4c
+        type: faqItem
+        parameters:
+          answer:
+            type: text
+            locales:
+              en-US: >-
+                You can cancel up to 60 days before departure for a full refund.
+                Cancellations made between 30 and 60 days before departure
+                receive a 50% refund, while cancellations within 30 days are
+                non-refundable. Travel insurance is available for extra
+                protection.
+          question:
+            type: text
+            locales:
+              en-US: What is your cancellation policy?
+        _overridability:
+          parameters:
+            answer: 'yes'
+            question: 'yes'
+      - _id: 7b0132d1-1ee3-4a09-9b5b-e62d1e37249e
+        type: faqItem
+        parameters:
+          answer:
+            type: text
+            locales:
+              en-US: >-
+                Yes, we specialize in creating custom travel experiences
+                tailored to your interests, schedule, and preferences. Our
+                travel experts will work closely with you to design your ideal
+                itinerary.
+          question:
+            type: text
+            locales:
+              en-US: Do you offer private or custom tours?
+        _overridability:
+          parameters:
+            answer: 'yes'
+            question: 'yes'
+      - _id: a79d2b30-f909-4013-aaec-7bf0f0bb13fe
+        type: faqItem
+        parameters:
+          answer:
+            type: text
+            locales:
+              en-US: >-
+                We recommend booking 3-6 months in advance for the best
+                availability, especially during peak seasons. However, we can
+                often accommodate last-minute requests for select destinations.
+          question:
+            type: text
+            locales:
+              en-US: How far in advance should I book?
+        _overridability:
+          parameters:
+            answer: 'yes'
+            question: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T20:46:55.602336+00:00'
+modified: '2025-12-11T20:47:15.60644+00:00'
+pattern: true

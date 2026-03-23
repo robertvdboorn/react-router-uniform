@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: searchHero
+name: Search Hero
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main hero headline
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting text below the title
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Full-width background image. Works with Unsplash, Cloudinary, or Uniform assets — responsive sizes are generated automatically.
+    typeConfig:
+      required: false
+description: Premium hero section with integrated destination search form
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-12-11T20:26:31.140325+00:00'
+updated: '2025-12-11T20:26:31.140325+00:00'

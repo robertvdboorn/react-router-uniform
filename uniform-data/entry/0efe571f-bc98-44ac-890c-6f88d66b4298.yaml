@@ -1,0 +1,639 @@
+created: '2025-12-12T14:14:21.260855+00:00'
+modified: '2025-12-12T15:03:53.696575+00:00'
+pattern: false
+entry:
+  _id: 0efe571f-bc98-44ac-890c-6f88d66b4298
+  _name: Wellness Bali Retreat
+  _slug: wellness-bali-retreat
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/eUOzQp3dSNS3yFWkMEFhZw-premium_photo-1661416803247-9d43d32cf3b6.png
+  type: travelPackage
+  fields:
+    price:
+      type: number
+      value: 2199
+    duration:
+      type: text
+      value: 8 Days / 7 Nights
+    featured:
+      type: checkbox
+      value: 'true'
+    exclusions:
+      type: text
+      locales:
+        en-US: >-
+          International flights, travel insurance, personal shopping, and
+          optional treatments are not included in the package.
+    inclusions:
+      type: text
+      locales:
+        en-US: >-
+          Eco-Luxury Accommodation, All Organic Meals, Daily Yoga & Meditation,
+          Spa Treatments, Workshops, Excursions, Airport Transfers
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 8-Day Transformative Wellness Journey in Ubud, Bali
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Embark on a life-changing 8-day wellness retreat in the
+                      heart of Ubud, Bali, designed for those seeking profound
+                      physical and spiritual renewal. This immersive package
+                      blends ancient Balinese healing traditions with modern
+                      holistic practices, all set within the tranquil embrace of
+                      a lush jungle eco-luxury resort.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Package Highlights
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Daily Yoga & Meditation:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Start each morning with invigorating yoga and meditation sessions led by expert instructors, surrounded by the soothing sounds of nature.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Traditional Balinese Spa Treatments:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Experience deep relaxation with daily spa rituals, including massages and herbal therapies rooted in centuries-old Balinese wisdom.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Detox & Organic Meal Plans:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Nourish your body with chef-prepared organic meals and detox juices, crafted from locally sourced ingredients to support your wellness journey.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sound Healing Workshops:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Rebalance your energy through immersive sound healing sessions using traditional instruments, designed to harmonize mind, body, and spirit.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Chakra Balancing Therapy:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Restore inner equilibrium with guided chakra balancing therapies, tailored to release blockages and enhance your natural vitality.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Rice Terrace Morning Walks:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Connect with Bali’s breathtaking landscapes on guided morning walks through emerald rice terraces, offering moments of mindfulness and awe.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Visit to Sacred Water Temples:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Participate in a traditional purification ceremony at Bali’s revered water temples, a spiritual experience for cleansing and renewal.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sunrise Mount Batur Trek:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Witness the magic of dawn atop Mount Batur with a guided sunrise trek, followed by a nourishing breakfast overlooking volcanic vistas.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 9
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Healthy Balinese Cooking Classes:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Learn the secrets of wholesome Balinese cuisine in hands-on cooking classes, empowering you to bring wellness home.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 10
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Mindfulness & Breathwork Sessions:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Deepen your self-awareness and inner calm with daily mindfulness and breathwork practices.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 11
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Eco-Luxury Resort Stay:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Unwind in a private suite with panoramic jungle views, eco-friendly amenities, and serene spaces designed for ultimate relaxation.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Itinerary Overview
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ol
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 1:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Arrival, welcome ceremony, orientation, and gentle evening yoga.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 2:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Sunrise yoga, organic breakfast, spa treatment, sound healing workshop, and mindfulness session.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 3:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Rice terrace walk, detox lunch, chakra balancing therapy, and Balinese cooking class.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 4:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Morning meditation, visit to sacred water temples, purification ritual, and restorative spa session.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 5:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Sunrise Mount Batur trek, healthy picnic breakfast, afternoon rest, and breathwork session.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 6:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Yoga flow, organic meal plan, sound healing, and free time for reflection or exploration.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 7:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Guided mindfulness walk, spa therapy, farewell group dinner, and closing circle.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Day 8:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Final yoga and meditation, breakfast, and departure with renewed energy and clarity.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This Bali wellness package is perfect for solo travelers,
+                      couples, or friends seeking a holistic escape to
+                      rejuvenate body, mind, and soul. Return home feeling
+                      refreshed, inspired, and deeply connected to yourself and
+                      the natural world.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-0efe571f-bc98-44ac-890c-6f88d66b4298-destination/entries/0}
+    packageName:
+      type: text
+      value: Wellness Bali Retreat
+    packageType:
+      type: select
+      value: wellness
+    maxGroupSize:
+      type: number
+      value: 10
+    featuredImage:
+      type: asset
+      value:
+        - _id: f6b5ad7f-d8cb-4198-8341-14afa61fb924
+          type: image
+          fields:
+            id:
+              type: text
+              value: 311ddd9d-ce84-471e-b0bc-0676ba7b9a54
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/eUOzQp3dSNS3yFWkMEFhZw-premium_photo-1661416803247-9d43d32cf3b6.png
+              type: text
+            file:
+              type: file
+              value: a4f9cf94-ac60-490b-ac93-ebd83fba135a
+            size:
+              value: 1406475
+              type: number
+            title:
+              type: text
+              value: premium_photo-1661416803247-9d43d32cf3b6.png
+            width:
+              value: 774
+              type: number
+            height:
+              value: 1161
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+        - _id: 00a5ff99-b2c6-4376-979e-f2eaea5320f0
+          type: image
+          fields:
+            id:
+              type: text
+              value: 8684d53a-8507-447c-957b-61a137dc851d
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/nxhv6TfVRkeaYgWmFpvlCQ/BKmB38EAQQWShbD-KJ9a0Q-photo-1611920630418-f587fdc3bf94.png
+              type: text
+            file:
+              type: file
+              value: 6a0e3812-a888-4cad-8c8e-0475dfe39e8a
+            size:
+              value: 10918991
+              type: number
+            title:
+              type: text
+              value: photo-1611920630418-f587fdc3bf94.png
+            width:
+              value: 2574
+              type: number
+            height:
+              value: 3861
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    originalPrice:
+      type: number
+      value: 2899
+    difficultyLevel:
+      type: select
+      value: easy
+    shortDescription:
+      type: text
+      locales:
+        en-US: >-
+          Rejuvenate your mind, body, and spirit with daily yoga, spa
+          treatments, healthy cuisine, and mindfulness practices in the tranquil
+          setting of Ubud.
+  _dataResources:
+    ref-0efe571f-bc98-44ac-890c-6f88d66b4298-destination:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2c086bf2-56e8-4ae1-b5b7-377a3bbe4cb4
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true
